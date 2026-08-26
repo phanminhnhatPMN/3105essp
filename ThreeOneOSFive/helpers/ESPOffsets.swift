@@ -1,6 +1,6 @@
 //
 //  ESPOffsets.swift
-//  3105 - Auto-generated Free Fire ESP Offsets
+//  3105 - Auto-generated Free Fire ESP Offsets (Sanitized)
 //
 import Foundation
 
@@ -315,10 +315,6 @@ public enum ESPOffsets {
         public static let m_colliderInfoList: UInt64 = 0x20
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum CameraShakeParam {
@@ -493,7 +489,7 @@ public enum ESPOffsets {
         public static let m_TransformLocalToWorldMatrix: UInt64 = 0x90
     }
 
-    public enum DynamicBone {
+    public enum DynamicBone_1 {
         /// float
         public static let radius: UInt64 = 0x0
         /// bool
@@ -508,12 +504,12 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum DynamicBone {
+    public enum DynamicBone_2 {
         /// Transform
         public static let b: UInt64 = 0x10
     }
 
-    public enum DynamicBone {
+    public enum DynamicBone_3 {
         /// Transform
         public static let m_Root: UInt64 = 0x20
         /// float
@@ -618,8 +614,6 @@ public enum ESPOffsets {
         public static let m_UpdateMode: UInt64 = 0x164
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum DynamicBoneCollider {
@@ -684,12 +678,12 @@ public enum ESPOffsets {
         public static let m_InitLocalRotation: UInt64 = 0x80
     }
 
-    public enum DynamicBoneNet {
+    public enum DynamicBoneNet_1 {
         /// Transform
         public static let b: UInt64 = 0x10
     }
 
-    public enum DynamicBoneNet {
+    public enum DynamicBoneNet_2 {
         /// Particle>>
         public static let m_ParticleDic: UInt64 = 0x168
         /// List<Transform>
@@ -702,7 +696,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum RCC_Camera {
+    public enum RCC_Camera_1 {
         /// Transform
         public static let playerCar: UInt64 = 0x20
         /// Rigidbody
@@ -764,8 +758,6 @@ public enum ESPOffsets {
         public static let height: UInt64 = 0x40
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum RCC_TopCamera {
@@ -804,7 +796,7 @@ public enum ESPOffsets {
         public static let recursivery: UInt64 = 0x10
     }
 
-    public enum SABoneColliderCommon {
+    public enum SABoneColliderCommon_1 {
         /// BoneWeightType
         public static let boneWeightType: UInt64 = 0x10
         /// int
@@ -819,7 +811,7 @@ public enum ESPOffsets {
         public static let boneTriangleExtent: UInt64 = 0x24
     }
 
-    public enum SABoneColliderCommon {
+    public enum SABoneColliderCommon_2 {
         /// BoneProperty
         public static let boneProperty: UInt64 = 0x10
         /// SplitProperty
@@ -834,7 +826,7 @@ public enum ESPOffsets {
         public static let modifyNameEnabled: UInt64 = 0x38
     }
 
-    public enum SABoneColliderCommon {
+    public enum SABoneColliderCommon_3 {
         /// SplitProperty
         public static let splitProperty: UInt64 = 0x10
         /// ReducerProperty
@@ -847,15 +839,7 @@ public enum ESPOffsets {
         public static let modifyNameEnabled: UInt64 = 0x30
     }
 
-    public enum SABoneColliderCommon {
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
+    public enum SABoneColliderCommon_4 {
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -929,7 +913,7 @@ public enum ESPOffsets {
         public static let m_umaData: UInt64 = 0x38
     }
 
-    public enum CameraNode_Shadow {
+    public enum CameraNode_Shadow_1 {
         /// Camera
         public static let m_camera: UInt64 = 0x20
         /// CameraStateChanged
@@ -945,7 +929,7 @@ public enum ESPOffsets {
         public static let _cachedRaceDatas: UInt64 = 0x20
     }
 
-    public enum DynamicCharacterAvatar {
+    public enum DynamicCharacterAvatar_1 {
         /// string
         public static let _recipeName: UInt64 = 0x10
         /// UMATextRecipe
@@ -954,14 +938,14 @@ public enum ESPOffsets {
         public static let _compatibleRaces: UInt64 = 0x20
     }
 
-    public enum DynamicCharacterAvatar {
+    public enum DynamicCharacterAvatar_2 {
         /// bool
         public static let loadDefaultRecipes: UInt64 = 0x10
         /// WardrobeRecipeListItem>
         public static let recipes: UInt64 = 0x18
     }
 
-    public enum DynamicCharacterAvatar {
+    public enum DynamicCharacterAvatar_3 {
         /// string
         public static let _name: UInt64 = 0x28
         /// Color
@@ -972,12 +956,12 @@ public enum ESPOffsets {
         public static let valuesConverted: UInt64 = 0x50
     }
 
-    public enum DynamicCharacterAvatar {
+    public enum DynamicCharacterAvatar_4 {
         /// ColorValue>
         public static let _colors: UInt64 = 0x10
     }
 
-    public enum DynamicCharacterAvatar {
+    public enum DynamicCharacterAvatar_7 {
         /// LoadOptions
         public static let customLoadOptions: UInt64 = 0x20
         /// bool
@@ -986,7 +970,7 @@ public enum ESPOffsets {
         public static let settingsToLoad: UInt64 = 0x38
     }
 
-    public enum DynamicCharacterAvatar {
+    public enum DynamicCharacterAvatar_8 {
         /// UMADataEvent
         public static let RecipeUpdated: UInt64 = 0xC0
         /// RaceSetter
@@ -1095,8 +1079,6 @@ public enum ESPOffsets {
         public static let weight3: UInt64 = 0x1C
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UMADynamicBoneColliderProperties {
@@ -1143,7 +1125,7 @@ public enum ESPOffsets {
         public static let m_RandomAccelerationInterval: UInt64 = 0x68
     }
 
-    public enum UMATransform {
+    public enum UMATransform_1 {
         /// Vector3
         public static let position: UInt64 = 0x10
         /// Quaternion
@@ -1173,7 +1155,7 @@ public enum ESPOffsets {
         public static let scale: UInt64 = 0x38
     }
 
-    public enum UMABonePose {
+    public enum UMABonePose_1 {
         /// PoseBone[]
         public static let poses: UInt64 = 0x18
         /// UMABonePose[]
@@ -1321,7 +1303,7 @@ public enum ESPOffsets {
         public static let m_Blend: UInt64 = 0x20
     }
 
-    public enum CinemachineBlendListCamera {
+    public enum CinemachineBlendListCamera_1 {
         /// Transform
         public static let m_LookAt: UInt64 = 0x80
         /// Transform
@@ -1346,7 +1328,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum CinemachineVirtualCamera {
+    public enum CinemachineVirtualCamera_3 {
         /// Transform
         public static let m_LookAt: UInt64 = 0x80
         /// Transform
@@ -1380,7 +1362,7 @@ public enum ESPOffsets {
         public static let m_Weight: UInt64 = 0x18
     }
 
-    public enum CameraState {
+    public enum CameraState_1 {
         /// Vector3
         public static let kNoPoint: UInt64 = 0x0
         /// CustomBlendable
@@ -1404,7 +1386,7 @@ public enum ESPOffsets {
         public static let m_OnCameraLive: UInt64 = 0x8
     }
 
-    public enum CinemachineVirtualCameraBase {
+    public enum CinemachineVirtualCameraBase_1 {
         /// string[]
         public static let m_ExcludedPropertiesInInspector: UInt64 = 0x20
         /// int[]
@@ -1481,14 +1463,6 @@ public enum ESPOffsets {
         public static let is_reconnect: UInt64 = 0x28
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum AntiAddictionPlayerInfoNtf {
@@ -1508,8 +1482,6 @@ public enum ESPOffsets {
         public static let id: UInt64 = 0x10
         /// uint
         public static let state: UInt64 = 0x14
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -2571,10 +2543,6 @@ public enum ESPOffsets {
         public static let team_info: UInt64 = 0x10
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum WeaponPowerUpdateNtf {
@@ -2595,8 +2563,6 @@ public enum ESPOffsets {
         public static let delta_power: UInt64 = 0x18
         /// string
         public static let WeaponName: UInt64 = 0x20
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -2737,7 +2703,7 @@ public enum ESPOffsets {
         public static let blacklisted_time: UInt64 = 0x18
     }
 
-    public enum WeaponSkinStat {
+    public enum WeaponSkinStat_1 {
         /// uint
         public static let weapon_skin_id: UInt64 = 0x10
         /// PString
@@ -2772,7 +2738,7 @@ public enum ESPOffsets {
         public static let nickname: UInt64 = 0x20
     }
 
-    public enum WeaponSkinCustom {
+    public enum WeaponSkinCustom_1 {
         /// uint
         public static let weapon_id: UInt64 = 0x10
         /// uint
@@ -2833,11 +2799,9 @@ public enum ESPOffsets {
         public static let player_num_min: UInt64 = 0x7C
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum RoomPlayerPresetInfo {
+    public enum RoomPlayerPresetInfo_1 {
         /// ulong
         public static let account_id: UInt64 = 0x10
         /// string
@@ -2854,20 +2818,6 @@ public enum ESPOffsets {
         public static let loadouts: UInt64 = 0x40
         /// uint
         public static let loadout_v2: UInt64 = 0x48
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -2909,7 +2859,7 @@ public enum ESPOffsets {
         public static let silver_medal_cnt: UInt64 = 0x58
     }
 
-    public enum WeaponPowerTitleInfo {
+    public enum WeaponPowerTitleInfo_1 {
         /// string
         public static let region: UInt64 = 0x10
         /// uint
@@ -3046,7 +2996,7 @@ public enum ESPOffsets {
         public static let position: UInt64 = 0x1C
     }
 
-    public enum PlayerLevelMMRFixInfo {
+    public enum PlayerLevelMMRFixInfo_1 {
         /// uint
         public static let level_low: UInt64 = 0x10
         /// uint
@@ -3152,7 +3102,7 @@ public enum ESPOffsets {
         public static let weapon_infos: UInt64 = 0x10
     }
 
-    public enum CSPeakIconicWeaponInfo {
+    public enum CSPeakIconicWeaponInfo_1 {
         /// uint
         public static let weapon_id: UInt64 = 0x10
         /// uint
@@ -3163,7 +3113,7 @@ public enum ESPOffsets {
         public static let damage: UInt64 = 0x1C
     }
 
-    public enum TopUpTeam {
+    public enum TopUpTeam_1 {
         /// ulong
         public static let team_id: UInt64 = 0x10
         /// uint
@@ -3198,7 +3148,7 @@ public enum ESPOffsets {
         public static let team: UInt64 = 0x20
     }
 
-    public enum RematchPlayer {
+    public enum RematchPlayer_1 {
         /// ulong
         public static let player_id: UInt64 = 0x10
         /// ulong
@@ -4416,7 +4366,7 @@ public enum ESPOffsets {
         public static let awards: UInt64 = 0x10
     }
 
-    public enum GuildWarPlayerTitleInfo {
+    public enum GuildWarPlayerTitleInfo_1 {
         /// GuildWarTitleInfo
         public static let info: UInt64 = 0x10
         /// uint
@@ -4527,7 +4477,7 @@ public enum ESPOffsets {
         public static let hide_distance: UInt64 = 0x20
     }
 
-    public enum CSGetPlayersNearbyRes {
+    public enum CSGetPlayersNearbyRes_1 {
         /// AccountWithDist>
         public static let accounts: UInt64 = 0x10
     }
@@ -4547,7 +4497,7 @@ public enum ESPOffsets {
         public static let match_times: UInt64 = 0x30
     }
 
-    public enum CSRecommendFriendsToFreshPlayerRes {
+    public enum CSRecommendFriendsToFreshPlayerRes_1 {
         /// Player>
         public static let players: UInt64 = 0x10
         /// uint
@@ -6254,7 +6204,7 @@ public enum ESPOffsets {
         public static let next_award_time: UInt64 = 0x18
     }
 
-    public enum WeaponPowerLeaderboardInfo {
+    public enum WeaponPowerLeaderboardInfo_1 {
         /// LeaderboardMainType
         public static let main_type: UInt64 = 0x10
         /// SubInfo>
@@ -6272,7 +6222,7 @@ public enum ESPOffsets {
         public static let leaderboards: UInt64 = 0x28
     }
 
-    public enum CSWeaponPowerLeaderboardDescRes {
+    public enum CSWeaponPowerLeaderboardDescRes_1 {
         /// List<WeaponPowerLeaderboardAwardDesc>
         public static let awards: UInt64 = 0x10
         /// List<WeaponPowerLeaderboardTitleDesc>
@@ -8173,7 +8123,7 @@ public enum ESPOffsets {
         public static let Seconds: UInt64 = 0x18
     }
 
-    public enum CameraModeTemplateDataManager {
+    public enum CameraModeTemplateDataManager_1 {
         /// List<CameraTemplateData>
         public static let m_CameraTemplateDataList: UInt64 = 0x18
         /// List<VideoTemplateData>
@@ -8384,7 +8334,7 @@ public enum ESPOffsets {
         public static let AvatarTransformID: UInt64 = 0x10
     }
 
-    public enum TransformData {
+    public enum TransformData_1 {
         /// uint
         public static let iID: UInt64 = 0x10
         /// uint
@@ -8818,7 +8768,7 @@ public enum ESPOffsets {
         public static let Position: UInt64 = 0x18
     }
 
-    public enum InGameTeamGoalManager {
+    public enum InGameTeamGoalManager_1 {
         /// string
         public static let m_CurMapName: UInt64 = 0x18
         /// InGameTeamGoalPathConfigDataItem>>
@@ -8834,7 +8784,7 @@ public enum ESPOffsets {
         public static let layerId: UInt64 = 0x18
     }
 
-    public enum MapLayerConfigDataManager {
+    public enum MapLayerConfigDataManager_1 {
         /// uint
         public static let mapId: UInt64 = 0x10
         /// uint
@@ -8843,7 +8793,7 @@ public enum ESPOffsets {
         public static let layerId: UInt64 = 0x18
     }
 
-    public enum MapLayerConfigDataManager {
+    public enum MapLayerConfigDataManager_2 {
         /// uint
         public static let mapID: UInt64 = 0x10
         /// uint
@@ -8852,7 +8802,7 @@ public enum ESPOffsets {
         public static let layerName: UInt64 = 0x18
     }
 
-    public enum MapLayerConfigDataManager {
+    public enum MapLayerConfigDataManager_3 {
         /// uint
         public static let mapId: UInt64 = 0x10
         /// uint
@@ -8861,7 +8811,7 @@ public enum ESPOffsets {
         public static let layerId: UInt64 = 0x18
     }
 
-    public enum MapLayerConfigDataManager {
+    public enum MapLayerConfigDataManager_4 {
         /// uint
         public static let mapID: UInt64 = 0x10
         /// uint
@@ -8870,7 +8820,7 @@ public enum ESPOffsets {
         public static let layerName: UInt64 = 0x18
     }
 
-    public enum MapLayerConfigDataManager {
+    public enum MapLayerConfigDataManager_5 {
         /// List<MapLayerConfigData>
         public static let MapLayerConfigDatas: UInt64 = 0x18
     }
@@ -8895,7 +8845,7 @@ public enum ESPOffsets {
         public static let LayerRes: UInt64 = 0x28
     }
 
-    public enum MapLayerSpecialConfigManager {
+    public enum MapLayerSpecialConfigManager_1 {
         /// MapLayerSpecialConfig>
         public static let m_Data: UInt64 = 0x18
         /// string>>
@@ -9499,10 +9449,6 @@ public enum ESPOffsets {
     public enum WeaponSkinUpgradeGratitudeData {
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum WeaponSkinUpgradeInfoData {
@@ -9590,7 +9536,7 @@ public enum ESPOffsets {
         public static let popType: UInt64 = 0x10
     }
 
-    public enum WeaponTabDataManager {
+    public enum WeaponTabDataManager_1 {
         /// List<WeaponTabData>
         public static let m_WeaponTabDataList: UInt64 = 0x18
         /// WeaponTabData>
@@ -9761,7 +9707,7 @@ public enum ESPOffsets {
         public static let info: UInt64 = 0x10
     }
 
-    public enum TrainingWeaponTip {
+    public enum TrainingWeaponTip_1 {
         /// UITable
         public static let attrTable: UInt64 = 0x20
         /// UISprite
@@ -11016,8 +10962,6 @@ public enum ESPOffsets {
         public static let m_CanUseHintVfxHolder: UInt64 = 0xC0
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum HelicopterCameraDriverPara {
@@ -11035,8 +10979,6 @@ public enum ESPOffsets {
     public enum HelicopterCameraParameter {
         /// HelicopterCameraPassengerPara[]
         public static let Passengers: UInt64 = 0x18
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -11088,12 +11030,12 @@ public enum ESPOffsets {
         public static let modelMail: UInt64 = 0x10
     }
 
-    public enum AutoTaskClaimMailRewards {
+    public enum AutoTaskClaimMailRewards_1 {
         /// MailInfo
         public static let info: UInt64 = 0x10
     }
 
-    public enum AutoTaskClaimMailRewards {
+    public enum AutoTaskClaimMailRewards_2 {
         /// List<GiftRewardPopupData>
         public static let m_giftRewardPopupData: UInt64 = 0x10
     }
@@ -11279,7 +11221,7 @@ public enum ESPOffsets {
         public static let m_rawChildren: UInt64 = 0x18
     }
 
-    public enum UIAvatarBoneNodeAdapter {
+    public enum UIAvatarBoneNodeAdapter_1 {
         /// TransformNode>
         public static let m_BoneNodeDic: UInt64 = 0x10
         /// Transform
@@ -11321,7 +11263,7 @@ public enum ESPOffsets {
         public static let rawAvatarGo: UInt64 = 0x70
     }
 
-    public enum UIHudBattleStylePlayerStatsController {
+    public enum UIHudBattleStylePlayerStatsController_3 {
         /// UIHudBattleStylePlayerStatsView
         public static let m_View: UInt64 = 0x98
         /// UIClickMask
@@ -11366,7 +11308,7 @@ public enum ESPOffsets {
         public static let m_HasAddDetailInfo: UInt64 = 0xA4
     }
 
-    public enum UIBooyahPassVideoPlayerController {
+    public enum UIBooyahPassVideoPlayerController_1 {
         /// RenderTexture
         public static let renderTexture: UInt64 = 0x110
         /// UIBooyahPassVideoView
@@ -11489,8 +11431,6 @@ public enum ESPOffsets {
         public static let m_IsCheckingJoystickInput: UInt64 = 0xE4
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UIHudCameraOperationBtnController {
@@ -11539,8 +11479,6 @@ public enum ESPOffsets {
         public static let m_UIRootMatchScreenshotCameraEnabledState: UInt64 = 0x118
         /// bool
         public static let m_HasUIRootMatchScreenshotCameraState: UInt64 = 0x119
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -11603,7 +11541,7 @@ public enum ESPOffsets {
         public static let curLevelCameraZoneId: UInt64 = 0x10
     }
 
-    public enum UIHudCameraTemplatePanelController {
+    public enum UIHudCameraTemplatePanelController_1 {
         /// UIHudCameraTemplatePanelView
         public static let m_View: UInt64 = 0x98
         /// UIHudCameraInGameController
@@ -11694,7 +11632,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIChampionshipTeamInviteController {
+    public enum UIChampionshipTeamInviteController_1 {
         /// UIChampionshipTeamInviteView
         public static let m_View: UInt64 = 0xD8
         /// UIModelFriends
@@ -11724,7 +11662,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIChampionshipTeamJoinController {
+    public enum UIChampionshipTeamJoinController_1 {
         /// UIChampionshipTeamJoinView
         public static let m_View: UInt64 = 0xD8
         /// UIModelChampionship
@@ -11785,12 +11723,12 @@ public enum ESPOffsets {
         public static let ShowPopupMenu: UInt64 = 0x19
     }
 
-    public enum UIChampionshipTeamProfileController {
+    public enum UIChampionshipTeamProfileController_1 {
         /// UIChampionshipTeamProfileController
         public static let teamProfile: UInt64 = 0x10
     }
 
-    public enum UIChampionshipTeamProfileController {
+    public enum UIChampionshipTeamProfileController_3 {
         /// UIChampionshipTeamProfileView
         public static let m_View: UInt64 = 0x98
         /// InfoEasyListFactory
@@ -11853,7 +11791,7 @@ public enum ESPOffsets {
         public static let m_MatchStats: UInt64 = 0xC0
     }
 
-    public enum UIHudBattleLevelPlayerStatsController {
+    public enum UIHudBattleLevelPlayerStatsController_3 {
         /// WaitForSeconds
         public static let m_DetailTipsAfterShopWaitSecs: UInt64 = 0x0
         /// byte
@@ -11903,7 +11841,7 @@ public enum ESPOffsets {
         public static let weaponSpriteScale: UInt64 = 0x18
     }
 
-    public enum UIHudCSShopTeammateWeaponInfoItemV2Controller {
+    public enum UIHudCSShopTeammateWeaponInfoItemV2Controller_1 {
         /// UIHudCSShopTeammateWeaponInfoItemV2View
         public static let m_View: UInt64 = 0x98
         /// Player
@@ -12097,7 +12035,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UICupMatchTeamInviteController {
+    public enum UICupMatchTeamInviteController_1 {
         /// UICupMatchTeamInviteView
         public static let m_View: UInt64 = 0xD8
         /// UIModelFriends
@@ -12142,12 +12080,12 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UICupMatchTeamJoinController {
+    public enum UICupMatchTeamJoinController_1 {
         /// FriendAccountInfo
         public static let friendAccountInfo: UInt64 = 0x10
     }
 
-    public enum UICupMatchTeamJoinController {
+    public enum UICupMatchTeamJoinController_2 {
         /// UICupMatchTeamJoinView
         public static let m_View: UInt64 = 0xD8
         /// UIModelCupMatch
@@ -12220,7 +12158,7 @@ public enum ESPOffsets {
         public static let CupMatchKey: UInt64 = 0x1C
     }
 
-    public enum UICupMatchTeamProfileController {
+    public enum UICupMatchTeamProfileController_1 {
         /// UICupMatchTeamProfileView
         public static let m_View: UInt64 = 0x98
         /// InfoEasyListFactory
@@ -12280,7 +12218,7 @@ public enum ESPOffsets {
         public static let id: UInt64 = 0x10
     }
 
-    public enum UIBigmapFFWSFlagTeammateView {
+    public enum UIBigmapFFWSFlagTeammateView_1 {
         /// UILabel
         public static let NameLable: UInt64 = 0x20
         /// UISprite
@@ -12302,12 +12240,12 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIActivityV2FriendReunionInviterTeamItemController {
+    public enum UIActivityV2FriendReunionInviterTeamItemController_1 {
         /// UIModelCustomRoom
         public static let modelRoom: UInt64 = 0x10
     }
 
-    public enum UIActivityV2FriendReunionInviterTeamItemController {
+    public enum UIActivityV2FriendReunionInviterTeamItemController_2 {
         /// UIActivityV2FriendReunionInviterTeamItemView
         public static let m_View: UInt64 = 0xB0
         /// UIBaseProfileInfoController
@@ -12372,17 +12310,17 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIPaymentSquadTreasureTeamCreatePopupWindowController {
+    public enum UIPaymentSquadTreasureTeamCreatePopupWindowController_1 {
         /// uint
         public static let defaultSeconds: UInt64 = 0x10
     }
 
-    public enum UIPaymentSquadTreasureTeamCreatePopupWindowController {
+    public enum UIPaymentSquadTreasureTeamCreatePopupWindowController_2 {
         /// UIPaymentSquadTreasureTeamSecondConfirmWindowController
         public static let confirmWnd: UInt64 = 0x18
     }
 
-    public enum UIPaymentSquadTreasureTeamCreatePopupWindowController {
+    public enum UIPaymentSquadTreasureTeamCreatePopupWindowController_3 {
         /// UIPaymentSquadTreasureTeamCreatePopupWindowView
         public static let m_View: UInt64 = 0xD8
         /// UIModelSquadTreasure
@@ -12421,7 +12359,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIPaymentSquadTreasureTeamInfoPopupWindowController {
+    public enum UIPaymentSquadTreasureTeamInfoPopupWindowController_1 {
         /// UIPaymentSquadTreasureTeamInfoPopupWindowView
         public static let m_View: UInt64 = 0xD8
         /// UIModelSquadTreasure
@@ -12440,11 +12378,9 @@ public enum ESPOffsets {
         public static let m_SettingSquadNumber: UInt64 = 0x10C
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum UIPaymentSquadTreasureTeamListBoxController {
+    public enum UIPaymentSquadTreasureTeamListBoxController_1 {
         /// UIPaymentSquadTreasureTeamListBoxView
         public static let m_View: UInt64 = 0x98
         /// ESquadTreasureTeamListType
@@ -12476,7 +12412,7 @@ public enum ESPOffsets {
         public static let listType: UInt64 = 0x18
     }
 
-    public enum UIPaymentSquadTreasureTeamListItemController {
+    public enum UIPaymentSquadTreasureTeamListItemController_1 {
         /// UIPaymentSquadTreasureTeamListItemView
         public static let m_View: UInt64 = 0x98
         /// RecommendTopUpTeam
@@ -12519,7 +12455,7 @@ public enum ESPOffsets {
         public static let team: UInt64 = 0x10
     }
 
-    public enum UIPaymentSquadTreasureTeammateNoticePopupWindowController {
+    public enum UIPaymentSquadTreasureTeammateNoticePopupWindowController_1 {
         /// UIPaymentSquadTreasureTeammateNoticePopupWindowView
         public static let m_View: UInt64 = 0xD8
         /// UIModelSquadTreasure
@@ -12692,7 +12628,7 @@ public enum ESPOffsets {
         public static let equipInfoItem: UInt64 = 0x10
     }
 
-    public enum UIHippoCrisisLobbyTeamInfoItemController {
+    public enum UIHippoCrisisLobbyTeamInfoItemController_1 {
         /// uint
         public static let WEAPONCNT: UInt64 = 0x0
         /// uint
@@ -12804,8 +12740,6 @@ public enum ESPOffsets {
         public static let EnableSkip: UInt64 = 0xE0
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UILadderMatchHeroicLevelView {
@@ -12899,7 +12833,7 @@ public enum ESPOffsets {
         public static let m_TargetPlayerInfoCtrl: UInt64 = 0xA0
     }
 
-    public enum UIHudLobbySocialAreaTargetPlayerController {
+    public enum UIHudLobbySocialAreaTargetPlayerController_1 {
         /// UIHudLobbySocialAreaTargetPlayerView
         public static let m_View: UInt64 = 0x98
         /// UIHudLobbySocialAreaTargetPlayerInfoController
@@ -12948,17 +12882,17 @@ public enum ESPOffsets {
         public static let members: UInt64 = 0x10
     }
 
-    public enum UILobbyGroupV2InGameTeamInfoController {
+    public enum UILobbyGroupV2InGameTeamInfoController_1 {
         /// ulong
         public static let accountID: UInt64 = 0x10
     }
 
-    public enum UILobbyGroupV2InGameTeamInfoController {
+    public enum UILobbyGroupV2InGameTeamInfoController_2 {
         /// ulong
         public static let accountID: UInt64 = 0x10
     }
 
-    public enum UILobbyGroupV2InGameTeamInfoController {
+    public enum UILobbyGroupV2InGameTeamInfoController_3 {
         /// UILobbyGroupV2InGameTeamInfoView
         public static let m_View: UInt64 = 0x98
         /// UIModelGroup
@@ -13027,7 +12961,7 @@ public enum ESPOffsets {
         public static let modelNewPlayer: UInt64 = 0x10
     }
 
-    public enum UILobbyV2NewPlayerSigninController {
+    public enum UILobbyV2NewPlayerSigninController_1 {
         /// UILobbyNewEventNewPlayerSigninView
         public static let m_View: UInt64 = 0x98
         /// UICountDownController
@@ -13045,12 +12979,12 @@ public enum ESPOffsets {
         public static let widget: UInt64 = 0x20
     }
 
-    public enum UILobbyV2StartGameTeamModesPanelController {
+    public enum UILobbyV2StartGameTeamModesPanelController_1 {
         /// int
         public static let count: UInt64 = 0x28
     }
 
-    public enum UILobbyV2StartGameTeamModesPanelController {
+    public enum UILobbyV2StartGameTeamModesPanelController_2 {
         /// UILobbyV2StartGameTeamModesPanelView
         public static let m_View: UInt64 = 0x98
         /// UIModelGroup
@@ -13071,14 +13005,14 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UILobbyV2TeamInfoController {
+    public enum UILobbyV2TeamInfoController_1 {
         /// ulong
         public static let memberAccountId: UInt64 = 0x18
         /// GroupMemberInfo
         public static let dest: UInt64 = 0x20
     }
 
-    public enum UILobbyV2TeamInfoController {
+    public enum UILobbyV2TeamInfoController_2 {
         /// UILobbyV2TeamInfoView
         public static let m_View: UInt64 = 0xD8
         /// List<UILobbyV2TeamInfoIconController>
@@ -13110,7 +13044,7 @@ public enum ESPOffsets {
         public static let m_DestIcon: UInt64 = 0xB8
     }
 
-    public enum UILobbyV2TeamInfoItemController {
+    public enum UILobbyV2TeamInfoItemController_1 {
         /// uint
         public static let QUICKCHAT_AVATAR: UInt64 = 0x0
         /// uint
@@ -13322,7 +13256,7 @@ public enum ESPOffsets {
         public static let buddyType: UInt64 = 0x18
     }
 
-    public enum UIMallV2SelectPlayerPopupWndController {
+    public enum UIMallV2SelectPlayerPopupWndController_1 {
         /// UIMallV2SelectPlayerPopupWndView
         public static let m_View: UInt64 = 0xD8
         /// UIModelClan
@@ -13444,12 +13378,6 @@ public enum ESPOffsets {
         public static let m_StarList: UInt64 = 0xA0
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum ExtraPlayerDataForMatchResult {
@@ -13533,7 +13461,7 @@ public enum ESPOffsets {
         public static let stats: UInt64 = 0x38
     }
 
-    public enum UIHudTeamBattleMatchResultController {
+    public enum UIHudTeamBattleMatchResultController_3 {
         /// UISprite
         public static let m_LeftTeamInfoBG: UInt64 = 0x418
         /// UISprite
@@ -13576,7 +13504,7 @@ public enum ESPOffsets {
         public static let m_RankingTipsCtrl: UInt64 = 0x4B8
     }
 
-    public enum UIHudTeamBattleMatchResultItemController {
+    public enum UIHudTeamBattleMatchResultItemController_1 {
         /// UIHudTeamBattleMatchResultItemView
         public static let m_View: UInt64 = 0x280
         /// UIPrivilegeIconController
@@ -13609,7 +13537,7 @@ public enum ESPOffsets {
         public static let m_RatingNum: UInt64 = 0x2EC
     }
 
-    public enum UIHudUGCMultiTeamMatchResultController {
+    public enum UIHudUGCMultiTeamMatchResultController_1 {
         /// UIHudUGCMultiTeamMatchResultView
         public static let m_View: UInt64 = 0x418
         /// uint
@@ -13645,7 +13573,7 @@ public enum ESPOffsets {
         public static let matchStats: UInt64 = 0x10
     }
 
-    public enum UIHudUGCOneTeamMatchResultController {
+    public enum UIHudUGCOneTeamMatchResultController_1 {
         /// ulong
         public static let m_SelfAccountID: UInt64 = 0x430
     }
@@ -13664,7 +13592,7 @@ public enum ESPOffsets {
         public static let stats: UInt64 = 0x38
     }
 
-    public enum UIHudUGCTeamBattleMatchResultController {
+    public enum UIHudUGCTeamBattleMatchResultController_3 {
         /// UIHudUGCTeamBattleMatchResultView
         public static let m_View: UInt64 = 0x418
         /// bool
@@ -13695,7 +13623,7 @@ public enum ESPOffsets {
         public static let m_RankingTipsCtrl: UInt64 = 0x488
     }
 
-    public enum UIHudUGCTeamBattleMatchResultItemController {
+    public enum UIHudUGCTeamBattleMatchResultItemController_1 {
         /// UIHudUGCTeamBattleMatchResultItemView
         public static let m_View: UInt64 = 0x280
         /// Color
@@ -13716,7 +13644,7 @@ public enum ESPOffsets {
         public static let m_Player: UInt64 = 0x2C8
     }
 
-    public enum UILadderPlayerFullScreenAnimation {
+    public enum UILadderPlayerFullScreenAnimation_2 {
         /// Animation
         public static let m_FullScreenAnimationContainer: UInt64 = 0x20
         /// string
@@ -13947,7 +13875,7 @@ public enum ESPOffsets {
         public static let needShowDisappearAnim: UInt64 = 0x20
     }
 
-    public enum UINewPlayerV3ExploreCampController {
+    public enum UINewPlayerV3ExploreCampController_2 {
         /// UINewPlayerV3ExploreCampView
         public static let m_View: UInt64 = 0x98
         /// UIModelNewPlayerV3
@@ -14043,7 +13971,7 @@ public enum ESPOffsets {
         public static let needScrollToCurLevel: UInt64 = 0x28
     }
 
-    public enum UINewPlayerV3GrowPathController {
+    public enum UINewPlayerV3GrowPathController_1 {
         /// UIModelNewPlayerV3
         public static let m_ModelNewPlayer: UInt64 = 0x98
         /// UINewPlayerV3GrowPathView
@@ -14200,8 +14128,6 @@ public enum ESPOffsets {
         public static let m_DelayClose: UInt64 = 0xA8
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UINewPlayerV3SignItemController {
@@ -14240,7 +14166,7 @@ public enum ESPOffsets {
         public static let day: UInt64 = 0x10
     }
 
-    public enum UINewPlayerV3SubTabMainController {
+    public enum UINewPlayerV3SubTabMainController_1 {
         /// UINewPlayerV3SubTabMainView
         public static let m_View: UInt64 = 0x98
         /// List<NewPlayerSubTabData>
@@ -14476,7 +14402,7 @@ public enum ESPOffsets {
         public static let modelInventory: UInt64 = 0x18
     }
 
-    public enum ProfileCustomWeaponProficiencyData {
+    public enum ProfileCustomWeaponProficiencyData_1 {
         /// uint
         public static let WeaponID: UInt64 = 0x10
         /// uint
@@ -14524,7 +14450,7 @@ public enum ESPOffsets {
         public static let m_GodEndTime: UInt64 = 0xA8
     }
 
-    public enum UIHudReaperTransformController {
+    public enum UIHudReaperTransformController_1 {
         /// UIHudReaperTransformView
         public static let m_View: UInt64 = 0x98
         /// float
@@ -14576,7 +14502,7 @@ public enum ESPOffsets {
         public static let m_entityID: UInt64 = 0xC8
     }
 
-    public enum UIHudSceneEditCameraHeightController {
+    public enum UIHudSceneEditCameraHeightController_1 {
         /// UIHudSceneEditCameraHeightView
         public static let m_View: UInt64 = 0xA0
         /// SceneEditAgent
@@ -14610,12 +14536,12 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIHUDBrTeamScoreBoardItemController {
+    public enum UIHUDBrTeamScoreBoardItemController_1 {
         /// uint
         public static let id: UInt64 = 0x10
     }
 
-    public enum UIHUDBrTeamScoreBoardItemController {
+    public enum UIHUDBrTeamScoreBoardItemController_2 {
         /// BrTeamScoreBoardItemView
         public static let m_View: UInt64 = 0x98
         /// Player
@@ -14775,7 +14701,7 @@ public enum ESPOffsets {
         public static let m_DefaultDesc: UInt64 = 0xC8
     }
 
-    public enum UIHUDTeamBattleScoreBoardItemController {
+    public enum UIHUDTeamBattleScoreBoardItemController_2 {
         /// TeamScoreBoardItemView
         public static let m_View: UInt64 = 0x98
         /// Player
@@ -15021,7 +14947,7 @@ public enum ESPOffsets {
         public static let Angle: UInt64 = 0x10
     }
 
-    public enum UIUGCHudWidgetAttributeTransformController {
+    public enum UIUGCHudWidgetAttributeTransformController_1 {
         /// UIUGCHudWidgetAttributeTransformView
         public static let m_View: UInt64 = 0xC0
         /// UIUGCHudWidgetAttributeTransformItemController
@@ -15221,12 +15147,12 @@ public enum ESPOffsets {
         public static let i: UInt64 = 0x18
     }
 
-    public enum UIHUDUGC_ObjectEntityAttributeEditController {
+    public enum UIHUDUGC_ObjectEntityAttributeEditController_1 {
         /// string
         public static let name: UInt64 = 0x10
     }
 
-    public enum UIHUDUGC_ObjectEntityAttributeEditController {
+    public enum UIHUDUGC_ObjectEntityAttributeEditController_2 {
         /// string
         public static let m_Id: UInt64 = 0xD8
         /// UIHUDUGC_ObjectEntityAttributeEditView
@@ -15243,7 +15169,7 @@ public enum ESPOffsets {
         public static let m_Redefined: UInt64 = 0x108
     }
 
-    public enum UIHUDUGC_ObjectEntityAttributeEditItemController {
+    public enum UIHUDUGC_ObjectEntityAttributeEditItemController_2 {
         /// UIHUDUGC_ObjectEntityAttributeEditItemView
         public static let m_View: UInt64 = 0xB0
         /// IBILCDHHNHM
@@ -15457,7 +15383,7 @@ public enum ESPOffsets {
         public static let defaultSpriteName: UInt64 = 0x18
     }
 
-    public enum UIHUDUGC_TwoTeamMatchInfoSimpleNewController {
+    public enum UIHUDUGC_TwoTeamMatchInfoSimpleNewController_1 {
         /// UIHUDUGC_TwoTeamMatchInfoSimpleNewView
         public static let m_View: UInt64 = 0xB0
         /// UGCTwoTeamMatchInfoSimpleHudV2RepItem
@@ -15545,7 +15471,7 @@ public enum ESPOffsets {
         public static let pos: UInt64 = 0x8
     }
 
-    public enum UIBRMatchReviewPlayerMoveLineController {
+    public enum UIBRMatchReviewPlayerMoveLineController_1 {
         /// UIBRMatchReviewPlayerMoveLineView
         public static let m_View: UInt64 = 0x98
         /// Waypoint>
@@ -15571,7 +15497,7 @@ public enum ESPOffsets {
         public static let markerPos: UInt64 = 0x10
     }
 
-    public enum UIBRMatchReviewPlayerPathController {
+    public enum UIBRMatchReviewPlayerPathController_1 {
         /// long
         public static let ms: UInt64 = 0x0
         /// NOOPBILFLIJ
@@ -15590,7 +15516,7 @@ public enum ESPOffsets {
         public static let mapEventNameLocKey: UInt64 = 0x20
     }
 
-    public enum UIBRMatchReviewPlayerPathController {
+    public enum UIBRMatchReviewPlayerPathController_2 {
         /// long
         public static let ms: UInt64 = 0x0
         /// int
@@ -15599,14 +15525,14 @@ public enum ESPOffsets {
         public static let ctrl: UInt64 = 0x10
     }
 
-    public enum UIBRMatchReviewPlayerPathController {
+    public enum UIBRMatchReviewPlayerPathController_3 {
         /// long
         public static let startMs: UInt64 = 0x0
         /// long
         public static let endMs: UInt64 = 0x8
     }
 
-    public enum UIBRMatchReviewPlayerPathController {
+    public enum UIBRMatchReviewPlayerPathController_5 {
         /// UIBRMatchReviewPlayerPathView
         public static let m_View: UInt64 = 0x98
         /// NGKNJIMOHBM
@@ -15649,13 +15575,9 @@ public enum ESPOffsets {
         public static let m_OutOfMapIntervals: UInt64 = 0x128
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum UIChangeWeaponPreviewMainController {
+    public enum UIChangeWeaponPreviewMainController_1 {
         /// UIChangeWeaponPreviewMainView
         public static let m_View: UInt64 = 0xD8
         /// uint
@@ -15794,7 +15716,7 @@ public enum ESPOffsets {
         public static let delay: UInt64 = 0x20
     }
 
-    public enum UICreateCharacterController {
+    public enum UICreateCharacterController_1 {
         /// UICreateCharacterView
         public static let m_View: UInt64 = 0x98
         /// UIFFLogoController
@@ -15815,7 +15737,7 @@ public enum ESPOffsets {
         public static let StartTimeStamp: UInt64 = 0xD8
     }
 
-    public enum UICustomRoomRankTeamBoardController {
+    public enum UICustomRoomRankTeamBoardController_1 {
         /// UICustomRoomRankTeamBoardView
         public static let m_View: UInt64 = 0x98
         /// UIModelCustomRoom
@@ -15884,7 +15806,7 @@ public enum ESPOffsets {
         public static let COLOR_WEAPONMAIN_BG: UInt64 = 0xC0
     }
 
-    public enum UIGachaVideoPlayerController {
+    public enum UIGachaVideoPlayerController_2 {
         /// UIGachaVideoNavigationView
         public static let m_View: UInt64 = 0x110
         /// UIModelGacha
@@ -15971,7 +15893,7 @@ public enum ESPOffsets {
         public static let itempos: UInt64 = 0x28
     }
 
-    public enum UIGameModeNewPlayerUnlockFeaturePopController {
+    public enum UIGameModeNewPlayerUnlockFeaturePopController_1 {
         /// UIGameModeNewPlayerUnlockFeaturePopView
         public static let m_View: UInt64 = 0xD8
         /// UIRoot
@@ -16120,7 +16042,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIHudAirdropWeaponMarkController {
+    public enum UIHudAirdropWeaponMarkController_1 {
         /// LevelAirdrop
         public static let m_Target: UInt64 = 0xF0
         /// UIHudAirdropWeaponMarkView
@@ -16186,7 +16108,7 @@ public enum ESPOffsets {
         public static let IsAvaliable: UInt64 = 0x30
     }
 
-    public enum UIHudBuffPanelFollowPlayerController {
+    public enum UIHudBuffPanelFollowPlayerController_1 {
         /// UIHudBuffPanelFollowPlayerView
         public static let m_View: UInt64 = 0xF0
         /// BHGGAEEHJCO
@@ -16201,8 +16123,6 @@ public enum ESPOffsets {
         public static let m_CommonSlots: UInt64 = 0x128
         /// float>
         public static let m_NextAllowedShowTime: UInt64 = 0x130
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -16238,12 +16158,12 @@ public enum ESPOffsets {
         public static let weapondata: UInt64 = 0x10
     }
 
-    public enum UIHudCSShopWeaponDetailController {
+    public enum UIHudCSShopWeaponDetailController_1 {
         /// Vector3
         public static let itemPos: UInt64 = 0x28
     }
 
-    public enum UIHudCSShopWeaponDetailController {
+    public enum UIHudCSShopWeaponDetailController_2 {
         /// UIHudCSShopWeaponDetailView
         public static let m_View: UInt64 = 0x98
         /// List<UIHudInventoryTagController>
@@ -16366,7 +16286,7 @@ public enum ESPOffsets {
         public static let m_WeaponAttachType: UInt64 = 0x140
     }
 
-    public enum UIHudInventoryTeammateItemGivenController {
+    public enum UIHudInventoryTeammateItemGivenController_1 {
         /// UIHudInventoryTeammateItemGivenView
         public static let m_View: UInt64 = 0x98
         /// List<UIInventoryTeammateItemGiven>
@@ -16398,17 +16318,17 @@ public enum ESPOffsets {
         public static let val: UInt64 = 0x18
     }
 
-    public enum UIHudInventoryWeaponSlotItemController {
+    public enum UIHudInventoryWeaponSlotItemController_1 {
         /// ResourceID
         public static let resid: UInt64 = 0x18
     }
 
-    public enum UIHudInventoryWeaponSlotItemController {
+    public enum UIHudInventoryWeaponSlotItemController_2 {
         /// HENEHAGJCLI
         public static let itemData: UInt64 = 0x18
     }
 
-    public enum UIHudInventoryWeaponSlotItemController {
+    public enum UIHudInventoryWeaponSlotItemController_3 {
         /// UIHudInventoryWeaponSlotItemView
         public static let m_View: UInt64 = 0xC8
         /// GameObject
@@ -16490,12 +16410,12 @@ public enum ESPOffsets {
         public static let weapondata: UInt64 = 0x10
     }
 
-    public enum UIHudNewCSShopWeaponDetailController {
+    public enum UIHudNewCSShopWeaponDetailController_1 {
         /// bool
         public static let showDetailBtn: UInt64 = 0x28
     }
 
-    public enum UIHudNewCSShopWeaponDetailController {
+    public enum UIHudNewCSShopWeaponDetailController_2 {
         /// uint
         public static let m_CurItemId: UInt64 = 0x98
         /// List<UIHudInventoryTagController>
@@ -16540,7 +16460,7 @@ public enum ESPOffsets {
         public static let m_LevelStatsCtrl: UInt64 = 0x100
     }
 
-    public enum UIHudPlayerArmorStatsController {
+    public enum UIHudPlayerArmorStatsController_2 {
         /// UIHudPlayerArmorStatsView
         public static let m_View: UInt64 = 0x98
         /// Player
@@ -16692,7 +16612,7 @@ public enum ESPOffsets {
         public static let totalTime: UInt64 = 0x24
     }
 
-    public enum UIHudPlayerDebuffItem {
+    public enum UIHudPlayerDebuffItem_1 {
         /// UISprite
         public static let Icon: UInt64 = 0x20
         /// UISprite
@@ -16781,50 +16701,44 @@ public enum ESPOffsets {
         public static let PlayerRatingHighImproveVFXDelayCall: UInt64 = 0xC8
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum UIHudPlayerSkillBuffController {
+    public enum UIHudPlayerSkillBuffController_1 {
         /// string
         public static let skillType: UInt64 = 0x10
     }
 
-    public enum UIHudPlayerSkillBuffController {
+    public enum UIHudPlayerSkillBuffController_2 {
         /// string
         public static let skillType: UInt64 = 0x10
     }
 
-    public enum UIHudPlayerSkillBuffController {
+    public enum UIHudPlayerSkillBuffController_3 {
         /// string
         public static let skillTypeStr: UInt64 = 0x10
     }
 
-    public enum UIHudPlayerSkillBuffController {
+    public enum UIHudPlayerSkillBuffController_4 {
         /// string
         public static let petSkillType: UInt64 = 0x10
     }
 
-    public enum UIHudPlayerSkillBuffController {
+    public enum UIHudPlayerSkillBuffController_5 {
         /// OAICFPKEJNE
         public static let bevData: UInt64 = 0x10
     }
 
-    public enum UIHudPlayerSkillBuffController {
+    public enum UIHudPlayerSkillBuffController_6 {
         /// OAICFPKEJNE
         public static let weaponBehavorData: UInt64 = 0x10
     }
 
-    public enum UIHudPlayerSkillBuffController {
+    public enum UIHudPlayerSkillBuffController_7 {
         /// OAICFPKEJNE
         public static let buffBehaviorData: UInt64 = 0x10
     }
 
-    public enum UIHudPlayerSkillBuffController {
+    public enum UIHudPlayerSkillBuffController_8 {
         /// EHudPlayerSkillBuffType
         public static let m_HudPlayerSkillBuffType: UInt64 = 0x98
         /// UIHudPlayerSkillBuffView
@@ -16968,8 +16882,6 @@ public enum ESPOffsets {
         public static let m_SPRecoverPredictValue: UInt64 = 0x94
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UIHudPlayerStatsController {
@@ -16981,7 +16893,7 @@ public enum ESPOffsets {
         public static let pos: UInt64 = 0x28
     }
 
-    public enum UIHudPlayerStatsController {
+    public enum UIHudPlayerStatsController_1 {
         /// UIProgressBar
         public static let bar: UInt64 = 0x20
         /// float
@@ -16990,7 +16902,7 @@ public enum ESPOffsets {
         public static let duration: UInt64 = 0x2C
     }
 
-    public enum UIHudPlayerStatsController {
+    public enum UIHudPlayerStatsController_2 {
         /// UIHudPlayerStatsView
         public static let m_View: UInt64 = 0x98
         /// BHGGAEEHJCO
@@ -17122,7 +17034,7 @@ public enum ESPOffsets {
         public static let fromHideToShow: UInt64 = 0x10
     }
 
-    public enum UIHudPlayerStatsSPEPType1Controller {
+    public enum UIHudPlayerStatsSPEPType1Controller_1 {
         /// UIHudPlayerStatsSPEPType1View
         public static let m_View: UInt64 = 0x98
         /// Player
@@ -17168,7 +17080,7 @@ public enum ESPOffsets {
         public static let fromHideToShow: UInt64 = 0x10
     }
 
-    public enum UIHudPlayerStatsSPEPType2Controller {
+    public enum UIHudPlayerStatsSPEPType2Controller_1 {
         /// UIHudPlayerStatsSPEPType2View
         public static let m_View: UInt64 = 0x98
         /// Player
@@ -17423,7 +17335,7 @@ public enum ESPOffsets {
         public static let m_View: UInt64 = 0x98
     }
 
-    public enum UIHudTeammatesInfoController {
+    public enum UIHudTeammatesInfoController_2 {
         /// UIHudTeammatesInfoView
         public static let m_View: UInt64 = 0x98
         /// UIHudTeammateItem>
@@ -17593,14 +17505,14 @@ public enum ESPOffsets {
         public static let m_SpriteName: UInt64 = 0x8
     }
 
-    public enum UIHudWeaponInfoController {
+    public enum UIHudWeaponInfoController_1 {
         /// uint
         public static let weaponSkinID: UInt64 = 0x28
         /// uint
         public static let killCount: UInt64 = 0x2C
     }
 
-    public enum UIHudWeaponInfoController {
+    public enum UIHudWeaponInfoController_2 {
         /// UIHudWeaponInfoView
         public static let m_View: UInt64 = 0x98
         /// FDAEPHMIEPC
@@ -17772,7 +17684,7 @@ public enum ESPOffsets {
         public static let weaponData: UInt64 = 0x20
     }
 
-    public enum UIHudWeaponPropertyListHelper {
+    public enum UIHudWeaponPropertyListHelper_1 {
         /// int
         public static let propertyIndex: UInt64 = 0x10
         /// EWeaponScoreID
@@ -17781,7 +17693,7 @@ public enum ESPOffsets {
         public static let propertyName: UInt64 = 0x18
     }
 
-    public enum UIHudWeaponPropertyListHelper {
+    public enum UIHudWeaponPropertyListHelper_2 {
         /// uint[]
         public static let m_ScoreIds: UInt64 = 0x10
         /// ResourceID
@@ -17946,7 +17858,7 @@ public enum ESPOffsets {
         public static let index: UInt64 = 0x10
     }
 
-    public enum UILegendAvatarTransformAnimController {
+    public enum UILegendAvatarTransformAnimController_1 {
         /// UILegendAvatarTransformAnimView
         public static let m_View: UInt64 = 0x98
         /// List<UIToggleButton>
@@ -17962,7 +17874,7 @@ public enum ESPOffsets {
         public static let showObj: UInt64 = 0x20
     }
 
-    public enum UILoadingPlayerInfoController {
+    public enum UILoadingPlayerInfoController_1 {
         /// UILoadingPlayerInfoView
         public static let m_View: UInt64 = 0x20
         /// List<UILoadingPlayerInfoItemController>
@@ -18067,7 +17979,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UILobbyNotificationTeamUpRecommendController {
+    public enum UILobbyNotificationTeamUpRecommendController_1 {
         /// UILobbyNotificationTeamUpRecommendView
         public static let m_View: UInt64 = 0xA8
         /// UIModelGroup
@@ -18082,8 +17994,6 @@ public enum ESPOffsets {
         public static let m_ShowReasonReachLimit: UInt64 = 0xC8
         /// List<UIBaseController>
         public static let m_RecommendReasonCtrls: UInt64 = 0xD0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -18128,12 +18038,12 @@ public enum ESPOffsets {
         public static let IsNewGet: UInt64 = 0x19
     }
 
-    public enum UILobbyWeaponRackController {
+    public enum UILobbyWeaponRackController_1 {
         /// string
         public static let key: UInt64 = 0x10
     }
 
-    public enum UILobbyWeaponRackController {
+    public enum UILobbyWeaponRackController_2 {
         /// UILobbyWeaponRackView
         public static let m_View: UInt64 = 0x110
         /// UIModelWeaponRack
@@ -18175,8 +18085,6 @@ public enum ESPOffsets {
         public static let m_NeedDownloadList: UInt64 = 0xC8
         /// UINewDownloadInfoController
         public static let m_Downloader: UInt64 = 0xD0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -18346,8 +18254,6 @@ public enum ESPOffsets {
         public static let m_TeammateListItemControllers: UInt64 = 0xA0
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UIPostMatchTeamUpCountDownController {
@@ -18359,7 +18265,7 @@ public enum ESPOffsets {
         public static let groupId: UInt64 = 0x20
     }
 
-    public enum UIPostMatchTeamUpCountDownController {
+    public enum UIPostMatchTeamUpCountDownController_3 {
         /// UIPostMatchTeamUpCountDownView
         public static let m_View: UInt64 = 0x98
         /// GameObject
@@ -18559,12 +18465,12 @@ public enum ESPOffsets {
         public static let m_HasWeaponPowerTitle: UInt64 = 0x50
     }
 
-    public enum UIProfileWeaponNodePickItemController {
+    public enum UIProfileWeaponNodePickItemController_1 {
         /// UIModelRandomCollection
         public static let modelRandomCollection: UInt64 = 0x10
     }
 
-    public enum UIProfileWeaponNodePickItemController {
+    public enum UIProfileWeaponNodePickItemController_2 {
         /// WeaponPowerTitleRecordInfo
         public static let m_TitleInfo: UInt64 = 0xB0
         /// UIProfileWeaponPowerTitleController
@@ -18587,7 +18493,7 @@ public enum ESPOffsets {
         public static let m_View: UInt64 = 0xF8
     }
 
-    public enum UIQueryJoinTeammateSocialTipsBoxController {
+    public enum UIQueryJoinTeammateSocialTipsBoxController_1 {
         /// bool
         public static let NeedShowOnGroupJoinSuccess: UInt64 = 0x0
         /// NIKKALKPIBO
@@ -18598,14 +18504,6 @@ public enum ESPOffsets {
         public static let NeedShowOnGroupJoinSuccess_NickName: UInt64 = 0x10
         /// bool
         public static let DontShowToDay: UInt64 = 0xFC
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -18631,8 +18529,6 @@ public enum ESPOffsets {
         public static let m_PrimeAvatarFrame: UInt64 = 0xC8
         /// ResourceID
         public static let m_AvatarFrameRes: UInt64 = 0xD0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -18671,7 +18567,7 @@ public enum ESPOffsets {
         public static let to: UInt64 = 0x1C
     }
 
-    public enum UIRoomDuoPlayerWithTeamItemController {
+    public enum UIRoomDuoPlayerWithTeamItemController_1 {
         /// UIRoomDuoPlayerWithTeamItemView
         public static let m_View: UInt64 = 0xB0
         /// List<RoomPlayerInfo>
@@ -18702,7 +18598,7 @@ public enum ESPOffsets {
         public static let to: UInt64 = 0x1C
     }
 
-    public enum UIRoomPentaPlayerWithTeamItemController {
+    public enum UIRoomPentaPlayerWithTeamItemController_1 {
         /// UIRoomPentaPlayerWithTeamItemView
         public static let m_View: UInt64 = 0xB0
         /// List<RoomPlayerInfo>
@@ -18724,7 +18620,7 @@ public enum ESPOffsets {
         public static let to: UInt64 = 0x14
     }
 
-    public enum UIRoomPlayerItemController {
+    public enum UIRoomPlayerItemController_1 {
         /// Color
         public static let NAME_NORMAL: UInt64 = 0x0
         /// Color
@@ -18805,7 +18701,7 @@ public enum ESPOffsets {
         public static let to: UInt64 = 0x1C
     }
 
-    public enum UIRoomQuadPlayerWithTeamItemController {
+    public enum UIRoomQuadPlayerWithTeamItemController_1 {
         /// UIRoomQuadPlayerWithTeamItemView
         public static let m_View: UInt64 = 0xB0
         /// List<RoomPlayerInfo>
@@ -18825,7 +18721,7 @@ public enum ESPOffsets {
         public static let to: UInt64 = 0x1C
     }
 
-    public enum UIRoomSinglePlayerItemController {
+    public enum UIRoomSinglePlayerItemController_1 {
         /// UIRoomSinglePlayerItemView
         public static let m_View: UInt64 = 0xB0
         /// RoomGroupInfo
@@ -18856,7 +18752,7 @@ public enum ESPOffsets {
         public static let to: UInt64 = 0x1C
     }
 
-    public enum UIRoomSixPlayerWithTeamItemController {
+    public enum UIRoomSixPlayerWithTeamItemController_1 {
         /// UIRoomSixPlayerWithTeamItemView
         public static let m_View: UInt64 = 0xB0
         /// List<RoomPlayerInfo>
@@ -18915,7 +18811,7 @@ public enum ESPOffsets {
         public static let action: UInt64 = 0x20
     }
 
-    public enum UISeasonReplayDestinyWeaponController {
+    public enum UISeasonReplayDestinyWeaponController_1 {
         /// UIModelSeasonReplay
         public static let m_ModelSeasonReplay: UInt64 = 0x98
         /// UISeasonReplayDestinyWeaponOneController
@@ -18932,7 +18828,7 @@ public enum ESPOffsets {
         public static let m_PreviewType: UInt64 = 0xBC
     }
 
-    public enum UISeasonReplayDestinyWeaponItemController {
+    public enum UISeasonReplayDestinyWeaponItemController_1 {
         /// float
         public static let ModelPosX: UInt64 = 0x98
         /// float
@@ -19191,11 +19087,9 @@ public enum ESPOffsets {
         public static let m_LeaderBoardTitleCommonCtrl: UInt64 = 0xE8
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum UIWeaponProficiencyController {
+    public enum UIWeaponProficiencyController_1 {
         /// UIWeaponProficiencyView
         public static let m_View: UInt64 = 0x110
         /// UIModelWeaponProficiency
@@ -19373,34 +19267,34 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIWeaponSkinCustomPopWndController {
+    public enum UIWeaponSkinCustomPopWndController_1 {
         /// uint
         public static let sortType: UInt64 = 0x18
     }
 
-    public enum UIWeaponSkinCustomPopWndController {
+    public enum UIWeaponSkinCustomPopWndController_2 {
         /// bool
         public static let hasCustom: UInt64 = 0x10
     }
 
-    public enum UIWeaponSkinCustomPopWndController {
+    public enum UIWeaponSkinCustomPopWndController_3 {
         /// List<WeaponScoreName>
         public static let scoreNameList: UInt64 = 0x10
     }
 
-    public enum UIWeaponSkinCustomPopWndController {
+    public enum UIWeaponSkinCustomPopWndController_4 {
         /// WeaponSkinData
         public static let skinData: UInt64 = 0x18
     }
 
-    public enum UIWeaponSkinCustomPopWndController {
+    public enum UIWeaponSkinCustomPopWndController_5 {
         /// CSSharedItemData
         public static let item_data: UInt64 = 0x18
         /// List<ResourceID>
         public static let res_list: UInt64 = 0x20
     }
 
-    public enum UIWeaponSkinCustomPopWndController {
+    public enum UIWeaponSkinCustomPopWndController_7 {
         /// UIWeaponSkinCustomPopWndView
         public static let m_View: UInt64 = 0x110
         /// UIModelCollection
@@ -19490,30 +19384,16 @@ public enum ESPOffsets {
         public static let m_SkinId: UInt64 = 0xA8
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum UIWeaponSkinLobbyMainController {
+    public enum UIWeaponSkinLobbyMainController_1 {
         /// CSSharedItemData
         public static let item_data: UInt64 = 0x18
         /// List<ResourceID>
         public static let res_list: UInt64 = 0x20
     }
 
-    public enum UIWeaponSkinLobbyMainController {
+    public enum UIWeaponSkinLobbyMainController_2 {
         /// UIMaleAvatar
         public static let targetAvatar: UInt64 = 0x18
         /// WeaponSkinData
@@ -19522,22 +19402,22 @@ public enum ESPOffsets {
         public static let cData: UInt64 = 0x28
     }
 
-    public enum UIWeaponSkinLobbyMainController {
+    public enum UIWeaponSkinLobbyMainController_3 {
         /// WeaponSkinData
         public static let weaponSkinData: UInt64 = 0x10
     }
 
-    public enum UIWeaponSkinLobbyMainController {
+    public enum UIWeaponSkinLobbyMainController_4 {
         /// WeaponSkinData
         public static let lData: UInt64 = 0x18
     }
 
-    public enum UIWeaponSkinLobbyMainController {
+    public enum UIWeaponSkinLobbyMainController_5 {
         /// uint
         public static let newSkinId: UInt64 = 0x10
     }
 
-    public enum UIWeaponSkinLobbyMainController {
+    public enum UIWeaponSkinLobbyMainController_8 {
         /// PropertyType
         public static let m_PropertyType: UInt64 = 0x10C
         /// ECollectionWeaponType
@@ -19772,7 +19652,7 @@ public enum ESPOffsets {
         public static let DisData: UInt64 = 0x20
     }
 
-    public enum UIWeaponSkinMenuThirdItemController {
+    public enum UIWeaponSkinMenuThirdItemController_1 {
         /// UIWeaponSkinMenuThirdItemView
         public static let m_View: UInt64 = 0xB0
         /// UIModelInventory
@@ -19840,7 +19720,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIWeaponSkinNewbieRecommendWndController {
+    public enum UIWeaponSkinNewbieRecommendWndController_1 {
         /// UIWeaponSkinNewbieRecommendWndView
         public static let m_View: UInt64 = 0xD8
         /// List<NewbieWeaponRecommendData>
@@ -19876,7 +19756,7 @@ public enum ESPOffsets {
         public static let qualityColor: UInt64 = 0x24
     }
 
-    public enum UIWeaponSkinPokedexController {
+    public enum UIWeaponSkinPokedexController_2 {
         /// UIWeaponSkinPokedexView
         public static let m_View: UInt64 = 0x110
         /// UIModelWeaponSkinPokedex
@@ -19900,7 +19780,7 @@ public enum ESPOffsets {
         public static let delayFrameCount: UInt64 = 0x28
     }
 
-    public enum UIWeaponSkinPokedexItemController {
+    public enum UIWeaponSkinPokedexItemController_1 {
         /// UIWeaponSkinPokedexItemView
         public static let m_View: UInt64 = 0x98
         /// WeaponPokedexDesc
@@ -19955,7 +19835,7 @@ public enum ESPOffsets {
         public static let m_Scale: UInt64 = 0x28
     }
 
-    public enum UIWeaponSkinUpgraderFeatureController {
+    public enum UIWeaponSkinUpgraderFeatureController_1 {
         /// UIWeaponSkinUpgraderFeatureView
         public static let m_View: UInt64 = 0xD8
         /// GameObject
@@ -20005,7 +19885,7 @@ public enum ESPOffsets {
         public static let skinId: UInt64 = 0x10
     }
 
-    public enum UIWeaponSkinUpgraderRewardWndController {
+    public enum UIWeaponSkinUpgraderRewardWndController_1 {
         /// UIWeaponSkinUpgraderRewardWndView
         public static let m_View: UInt64 = 0xD8
         /// WeaponSkinData
@@ -20162,7 +20042,7 @@ public enum ESPOffsets {
         public static let index: UInt64 = 0x10
     }
 
-    public enum UIFrontEndPreviewAvatarTransformLevelController {
+    public enum UIFrontEndPreviewAvatarTransformLevelController_1 {
         /// List<UIToggleButton>
         public static let m_BackPackBtn: UInt64 = 0xC0
         /// bool
@@ -20529,7 +20409,7 @@ public enum ESPOffsets {
         public static let weaponSkinFeature: UInt64 = 0x28
     }
 
-    public enum WeaponSkinFeaturePreviewHandler {
+    public enum WeaponSkinFeaturePreviewHandler_1 {
         /// IWeaponSkinFeaturePreviewContext
         public static let m_Context: UInt64 = 0x10
         /// UIModelWeaponSkinUpgrader
@@ -20800,14 +20680,14 @@ public enum ESPOffsets {
         public static let TargetModelType: UInt64 = 0x24
     }
 
-    public enum UIHudAvatarTransformerBaseController {
+    public enum UIHudAvatarTransformerBaseController_1 {
         /// TransformConfig
         public static let config: UInt64 = 0x18
         /// Player
         public static let localPlayer: UInt64 = 0x20
     }
 
-    public enum UIHudAvatarTransformerBaseController {
+    public enum UIHudAvatarTransformerBaseController_2 {
         /// UIHudAvatarTransformerBaseView
         public static let m_BaseView: UInt64 = 0x98
         /// TransformData
@@ -20843,7 +20723,7 @@ public enum ESPOffsets {
         public static let resId: UInt64 = 0x18
     }
 
-    public enum UIHudWeaponKillNotificationItem {
+    public enum UIHudWeaponKillNotificationItem_1 {
         /// GameObject>
         public static let m_GoEffects: UInt64 = 0x100
         /// HashSet<uint>
@@ -20855,7 +20735,7 @@ public enum ESPOffsets {
         public static let resId: UInt64 = 0x18
     }
 
-    public enum UIWeaponKillNotificationItemController {
+    public enum UIWeaponKillNotificationItemController_2 {
         /// UIWeaponKillNotificationItemView
         public static let m_View: UInt64 = 0x98
         /// bool
@@ -20971,7 +20851,7 @@ public enum ESPOffsets {
         public static let m_CurrentState: UInt64 = 0x68
     }
 
-    public enum UIHudTeammateItem {
+    public enum UIHudTeammateItem_1 {
         /// UIWidget
         public static let ThisWidget: UInt64 = 0x20
         /// UILabel
@@ -21270,19 +21150,19 @@ public enum ESPOffsets {
         public static let purchasableProductIdentifier: UInt64 = 0x10
     }
 
-    public enum UIModelNewPlayerIAPBundle {
+    public enum UIModelNewPlayerIAPBundle_1 {
         /// NewPlayerBundlesDelegate
         public static let _I: UInt64 = 0x0
     }
 
-    public enum UIModelNewPlayerIAPBundle {
+    public enum UIModelNewPlayerIAPBundle_3 {
         /// string
         public static let productIdentifier: UInt64 = 0x18
         /// int
         public static let rebateID: UInt64 = 0x20
     }
 
-    public enum UIModelNewPlayerIAPBundle {
+    public enum UIModelNewPlayerIAPBundle_4 {
         /// IAPBundleStoreData
         public static let _PendingIAPBundle: UInt64 = 0x20
         /// IAPInfoItem
@@ -21362,41 +21242,41 @@ public enum ESPOffsets {
         public static let SystemDetail: UInt64 = 0x58
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_1 {
         /// ulong
         public static let currentTime: UInt64 = 0x10
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_2 {
         /// string
         public static let cmd: UInt64 = 0x18
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_3 {
         /// uint
         public static let taskId: UInt64 = 0x10
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_4 {
         /// string
         public static let cmd: UInt64 = 0x18
         /// EHttpChannel
         public static let channel: UInt64 = 0x20
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_5 {
         /// string
         public static let cmd: UInt64 = 0x18
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_6 {
         /// string
         public static let cmd: UInt64 = 0x18
         /// uint
         public static let day: UInt64 = 0x20
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_7 {
         /// string
         public static let cmd: UInt64 = 0x18
         /// List<uint>
@@ -21405,29 +21285,29 @@ public enum ESPOffsets {
         public static let forMatchResult: UInt64 = 0x28
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_8 {
         /// string
         public static let cmd: UInt64 = 0x18
         /// uint
         public static let activityId: UInt64 = 0x20
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_9 {
         /// string
         public static let cmd: UInt64 = 0x18
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_10 {
         /// List<uint>
         public static let sectionIDList: UInt64 = 0x10
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_11 {
         /// string
         public static let cmd: UInt64 = 0x18
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_12 {
         /// string
         public static let title1: UInt64 = 0x10
         /// string
@@ -21438,7 +21318,7 @@ public enum ESPOffsets {
         public static let content2: UInt64 = 0x28
     }
 
-    public enum UIModelNewPlayerV3 {
+    public enum UIModelNewPlayerV3_13 {
         /// uint
         public static let GROW_PATH_MAX_LEVEL: UInt64 = 0x0
         /// WaitingResponseHandler
@@ -21694,20 +21574,6 @@ public enum ESPOffsets {
         public static let GroupMode: UInt64 = 0x1C
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum WeaponPropertyChangePlayerPrefers {
@@ -21729,24 +21595,6 @@ public enum ESPOffsets {
         /// bool
         public static let IsSelected: UInt64 = 0x50
         /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// uint
         public static let value__: UInt64 = 0x0
     }
 
@@ -21788,8 +21636,6 @@ public enum ESPOffsets {
         public static let IsCriminalCollect: UInt64 = 0x31
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UIModelNewPlayerRecommendation {
@@ -21801,7 +21647,7 @@ public enum ESPOffsets {
         public static let m_NewPlayerRecDataList: UInt64 = 0x20
     }
 
-    public enum UIModelNewPlayerUnlockFeature {
+    public enum UIModelNewPlayerUnlockFeature_1 {
         /// bool
         public static let CanShowNewPlayerUnlockBanner: UInt64 = 0x1C
         /// NewPlayerUnlockFeatureDesc>
@@ -21812,14 +21658,6 @@ public enum ESPOffsets {
         public static let m_AffixCombIDDisplayAffixDic: UInt64 = 0x30
         /// uint>
         public static let m_NewPlayerUnlockFeatureShowParamDic: UInt64 = 0x38
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -22119,51 +21957,51 @@ public enum ESPOffsets {
         public static let id: UInt64 = 0x10
     }
 
-    public enum UIModelTeamReserve {
+    public enum UIModelTeamReserve_1 {
         /// ulong
         public static let id: UInt64 = 0x10
     }
 
-    public enum UIModelTeamReserve {
+    public enum UIModelTeamReserve_2 {
         /// ulong
         public static let id: UInt64 = 0x10
     }
 
-    public enum UIModelTeamReserve {
+    public enum UIModelTeamReserve_3 {
         /// UIModelCustomRoom
         public static let modelRoom: UInt64 = 0x18
         /// UIModelGroup
         public static let modelGroup: UInt64 = 0x20
     }
 
-    public enum UIModelTeamReserve {
+    public enum UIModelTeamReserve_4 {
         /// FriendAccountInfo
         public static let tempInfo: UInt64 = 0x10
     }
 
-    public enum UIModelTeamReserve {
+    public enum UIModelTeamReserve_5 {
         /// bool
         public static let isRoomConcerned: UInt64 = 0x10
         /// ulong
         public static let accountId: UInt64 = 0x20
     }
 
-    public enum UIModelTeamReserve {
+    public enum UIModelTeamReserve_6 {
         /// UIModelCustomRoom
         public static let modelRoom: UInt64 = 0x18
     }
 
-    public enum UIModelTeamReserve {
+    public enum UIModelTeamReserve_7 {
         /// ulong
         public static let inviterId: UInt64 = 0x18
     }
 
-    public enum UIModelTeamReserve {
+    public enum UIModelTeamReserve_8 {
         /// ulong
         public static let requesterId: UInt64 = 0x18
     }
 
-    public enum UIModelTeamReserve {
+    public enum UIModelTeamReserve_9 {
         /// ReserveStatus>
         public static let m_ReserveStatusDic: UInt64 = 0x20
         /// long>
@@ -22216,41 +22054,39 @@ public enum ESPOffsets {
         public static let m_FriendListTimeoutDelayCallID: UInt64 = 0xC0
         /// uint
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_1 {
         /// LeaderboardMainType
         public static let leaderBoardType: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_2 {
         /// uint
         public static let titleConfigID: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_3 {
         /// string
         public static let cmd: UInt64 = 0x18
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_4 {
         /// string
         public static let cmd: UInt64 = 0x18
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_5 {
         /// string
         public static let cmd: UInt64 = 0x18
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_6 {
         /// string
         public static let cmd: UInt64 = 0x18
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_7 {
         /// string
         public static let cmd: UInt64 = 0x18
         /// Vector2Int
@@ -22261,31 +22097,31 @@ public enum ESPOffsets {
         public static let mainType: UInt64 = 0x2C
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_8 {
         /// string
         public static let cmd: UInt64 = 0x18
         /// uint
         public static let matchMode: UInt64 = 0x20
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_9 {
         /// string
         public static let cmd: UInt64 = 0x18
         /// bool
         public static let isHide: UInt64 = 0x20
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_10 {
         /// WeaponPowerPlayerTitleInfo
         public static let titleInfo: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_11 {
         /// WeaponPowerPlayerTitleInfo
         public static let playerTitleInfo: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponPower {
+    public enum UIModelWeaponPower_12 {
         /// UIModelAreaLeaderBoard
         public static let m_ModelAreaLeaderBoard: UInt64 = 0x20
         /// CSWeaponPowerLeaderboardDescRes
@@ -22352,22 +22188,22 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIModelWeaponProficiency {
+    public enum UIModelWeaponProficiency_1 {
         /// uint
         public static let level: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponProficiency {
+    public enum UIModelWeaponProficiency_2 {
         /// uint
         public static let level: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponProficiency {
+    public enum UIModelWeaponProficiency_3 {
         /// uint
         public static let weaponId: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponProficiency {
+    public enum UIModelWeaponProficiency_4 {
         /// uint
         public static let weaponId: UInt64 = 0x18
         /// List<uint>
@@ -22376,7 +22212,7 @@ public enum ESPOffsets {
         public static let IsLevelUp: UInt64 = 0x28
     }
 
-    public enum UIModelWeaponProficiency {
+    public enum UIModelWeaponProficiency_5 {
         /// List<WeaponExpSwitch>>
         public static let m_DictWeaponSwitch: UInt64 = 0x20
         /// List<WeaponExpAwardDesc>>
@@ -22420,8 +22256,6 @@ public enum ESPOffsets {
         public static let LastEquipedWeaponIds: UInt64 = 0x28
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UIModelWeaponSkinCustom {
@@ -22435,12 +22269,12 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UIModelWeaponSkinPokedex {
+    public enum UIModelWeaponSkinPokedex_1 {
         /// uint
         public static let id: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponSkinPokedex {
+    public enum UIModelWeaponSkinPokedex_2 {
         /// string>
         public static let m_DictWeaponType2Text: UInt64 = 0x20
         /// bool[]
@@ -22470,24 +22304,24 @@ public enum ESPOffsets {
         public static let m_ModelWeaponSkinUpgrader: UInt64 = 0x18
     }
 
-    public enum UIModelWeaponSkinUpgrader {
+    public enum UIModelWeaponSkinUpgrader_1 {
         /// EWeaponPrivilegeType
         public static let weaponPrivilegeType: UInt64 = 0x10
         /// WeaponSkinUpgradeInfoData>
         public static let m_WeaponSkinUpgradeInfo: UInt64 = 0x18
     }
 
-    public enum UIModelWeaponSkinUpgrader {
+    public enum UIModelWeaponSkinUpgrader_2 {
         /// EWeaponPrivilegeType
         public static let weaponType: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponSkinUpgrader {
+    public enum UIModelWeaponSkinUpgrader_3 {
         /// uint
         public static let id: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponSkinUpgrader {
+    public enum UIModelWeaponSkinUpgrader_4 {
         /// CSUpgradeWeaponSkinReq
         public static let req: UInt64 = 0x18
         /// UIModelCollection
@@ -22496,27 +22330,27 @@ public enum ESPOffsets {
         public static let skinData: UInt64 = 0x28
     }
 
-    public enum UIModelWeaponSkinUpgrader {
+    public enum UIModelWeaponSkinUpgrader_5 {
         /// List<uint>
         public static let weaponSkinIds: UInt64 = 0x18
     }
 
-    public enum UIModelWeaponSkinUpgrader {
+    public enum UIModelWeaponSkinUpgrader_6 {
         /// WeaponSkinStat
         public static let stat: UInt64 = 0x18
     }
 
-    public enum UIModelWeaponSkinUpgrader {
+    public enum UIModelWeaponSkinUpgrader_7 {
         /// WeaponSkinStat
         public static let stat: UInt64 = 0x18
     }
 
-    public enum UIModelWeaponSkinUpgrader {
+    public enum UIModelWeaponSkinUpgrader_8 {
         /// uint
         public static let skinItemId: UInt64 = 0x10
     }
 
-    public enum UIModelWeaponSkinUpgrader {
+    public enum UIModelWeaponSkinUpgrader_9 {
         /// List<uint>
         public static let m_HaveHadSkinIds: UInt64 = 0x20
         /// HashSet<uint>
@@ -22563,11 +22397,9 @@ public enum ESPOffsets {
         public static let m_EvoGunRedPointFlag: UInt64 = 0xC8
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum NewbieRecommendWeaponDetailDataManager {
+    public enum NewbieRecommendWeaponDetailDataManager_1 {
         /// List<NewbieWeaponRecommendData>
         public static let m_NewbieWeaponRecommendDataLists: UInt64 = 0x18
         /// NewbieWeaponRecommendData>
@@ -22593,7 +22425,7 @@ public enum ESPOffsets {
         public static let m_Data: UInt64 = 0x18
     }
 
-    public enum UITeamModeBaseGameScene {
+    public enum UITeamModeBaseGameScene_1 {
         /// UIHudGameShowInfoController
         public static let m_ShowInfoCtrl: UInt64 = 0xF40
         /// UIHudTDMLikeShopController
@@ -22625,8 +22457,6 @@ public enum ESPOffsets {
         public static let m_View: UInt64 = 0x98
         /// TeamInfo
         public static let m_TeamInfo: UInt64 = 0xA0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -35634,7 +35464,7 @@ public enum ESPOffsets {
         public static let DefendIcon: UInt64 = 0x38
     }
 
-    public enum ShareCamera {
+    public enum ShareCamera_1 {
         /// bool
         public static let RenderFlag: UInt64 = 0x20
         /// Camera
@@ -35807,8 +35637,6 @@ public enum ESPOffsets {
         public static let portalList: UInt64 = 0x40
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum PotentiallyVisibleSetItem {
@@ -35955,14 +35783,14 @@ public enum ESPOffsets {
         public static let TweenAlpha: UInt64 = 0x20
     }
 
-    public enum UIHudVerticlePlayerHPController {
+    public enum UIHudVerticlePlayerHPController_1 {
         /// int
         public static let curHp: UInt64 = 0x28
         /// int
         public static let maxHp: UInt64 = 0x2C
     }
 
-    public enum UIHudVerticlePlayerHPController {
+    public enum UIHudVerticlePlayerHPController_2 {
         /// UIHudVerticlePlayerHPView
         public static let m_View: UInt64 = 0xF0
         /// VerticleViewPlayer
@@ -36024,7 +35852,7 @@ public enum ESPOffsets {
         public static let b: UInt64 = 0x14
     }
 
-    public enum UVSeqPlayer {
+    public enum UVSeqPlayer_2 {
         /// int[]
         public static let columnRow: UInt64 = 0x20
         /// float
@@ -36114,8 +35942,6 @@ public enum ESPOffsets {
         public static let updateInterval: UInt64 = 0x40
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum GameAssistantIntroductionData_PlayerMatchData {
@@ -36138,12 +35964,12 @@ public enum ESPOffsets {
         public static let ChatShowType: UInt64 = 0x34
     }
 
-    public enum MultiplePlayerWereWolvesGame {
+    public enum MultiplePlayerWereWolvesGame_2 {
         /// BHGGAEEHJCO
         public static let playerId: UInt64 = 0x10
     }
 
-    public enum MultiplePlayerWereWolvesGame {
+    public enum MultiplePlayerWereWolvesGame_3 {
         /// Color32>
         public static let PlayerColorMap: UInt64 = 0x3E8
         /// EIJKPAKPLMO
@@ -36182,8 +36008,6 @@ public enum ESPOffsets {
         public static let m_CachedMatchEndInfo: UInt64 = 0x460
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum PlayerArmsRace {
@@ -36198,12 +36022,12 @@ public enum ESPOffsets {
         public static let resourceID: UInt64 = 0x18
     }
 
-    public enum SingleplayerForceTutorialPhaseManager {
+    public enum SingleplayerForceTutorialPhaseManager_1 {
         /// ResourceID
         public static let resourceID: UInt64 = 0x18
     }
 
-    public enum SingleplayerForceTutorialPhaseManager {
+    public enum SingleplayerForceTutorialPhaseManager_2 {
         /// uint
         public static let LocalPlayerAvatarID: UInt64 = 0x0
         /// uint
@@ -36227,32 +36051,32 @@ public enum ESPOffsets {
         public static let Value: UInt64 = 0x20
     }
 
-    public enum LogicEntityAttributeUtil {
+    public enum LogicEntityAttributeUtil_2 {
         /// int
         public static let key: UInt64 = 0x10
     }
 
-    public enum LogicEntityAttributeUtil {
+    public enum LogicEntityAttributeUtil_3 {
         /// int
         public static let index: UInt64 = 0x10
     }
 
-    public enum LogicEntityAttributeUtil {
+    public enum LogicEntityAttributeUtil_4 {
         /// string
         public static let value: UInt64 = 0x10
     }
 
-    public enum LogicEntityAttributeUtil {
+    public enum LogicEntityAttributeUtil_5 {
         /// long
         public static let index: UInt64 = 0x10
     }
 
-    public enum LogicEntityAttributeUtil {
+    public enum LogicEntityAttributeUtil_6 {
         /// IJHPDKODECM
         public static let mapValue: UInt64 = 0x10
     }
 
-    public enum LogicEntityAttributeUtil {
+    public enum LogicEntityAttributeUtil_7 {
         /// LogicSetAttributeEvent
         public static let LogicSetAttrEvt: UInt64 = 0x0
         /// StringBuilder
@@ -36407,7 +36231,7 @@ public enum ESPOffsets {
         public static let W: UInt64 = 0x28
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_1 {
         /// string
         public static let X: UInt64 = 0x10
         /// string
@@ -36416,7 +36240,7 @@ public enum ESPOffsets {
         public static let Z: UInt64 = 0x20
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_2 {
         /// string
         public static let X: UInt64 = 0x10
         /// string
@@ -36425,12 +36249,12 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_4 {
         /// byte[]
         public static let bytes: UInt64 = 0x10
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_5 {
         /// EUGCGICMDID
         public static let cmdID: UInt64 = 0x10
         /// string
@@ -36439,7 +36263,7 @@ public enum ESPOffsets {
         public static let onFinished: UInt64 = 0x20
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_6 {
         /// string
         public static let personaID: UInt64 = 0x10
         /// EUGCGIPROTOCOL
@@ -36448,7 +36272,7 @@ public enum ESPOffsets {
         public static let onFinished: UInt64 = 0x20
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_7 {
         /// LLMStreamResponseBase
         public static let result: UInt64 = 0x10
         /// EUGCGICMDID
@@ -36469,7 +36293,7 @@ public enum ESPOffsets {
         public static let onUpdate: UInt64 = 0x58
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_8 {
         /// AIAssistantResponse
         public static let result: UInt64 = 0x10
         /// EUGCGICMDID
@@ -36482,7 +36306,7 @@ public enum ESPOffsets {
         public static let onUpdate: UInt64 = 0x38
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_9 {
         /// AIAssistantResponse
         public static let result: UInt64 = 0x18
         /// EUGCGICMDID
@@ -36493,7 +36317,7 @@ public enum ESPOffsets {
         public static let onFinished: UInt64 = 0x30
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_10 {
         /// LLMStreamResponseForJson>
         public static let onFinished: UInt64 = 0x10
         /// long
@@ -36502,14 +36326,14 @@ public enum ESPOffsets {
         public static let onUpdate: UInt64 = 0x20
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_11 {
         /// string
         public static let url: UInt64 = 0x20
         /// byte[]
         public static let data: UInt64 = 0x28
     }
 
-    public enum SceneEditAIManager {
+    public enum SceneEditAIManager_12 {
         /// List<AICmd>
         public static let AllAILog: UInt64 = 0x18
         /// List<AICmd>
@@ -36717,7 +36541,7 @@ public enum ESPOffsets {
         public static let m_gsUGCEntityID: UInt64 = 0xA0
     }
 
-    public enum UGCSkeletonBoneOwner {
+    public enum UGCSkeletonBoneOwner_1 {
         /// UGCSkeletonControlImpl
         public static let MonoImpl: UInt64 = 0x10
         /// List<UGCSkeletonPartController>
@@ -36736,29 +36560,29 @@ public enum ESPOffsets {
         public static let DataStore: UInt64 = 0x50
     }
 
-    public enum UGCCustomEntityAttributeManager {
+    public enum UGCCustomEntityAttributeManager_1 {
         /// long
         public static let propID: UInt64 = 0x10
     }
 
-    public enum UGCCustomEntityAttributeManager {
+    public enum UGCCustomEntityAttributeManager_2 {
         /// INAMDLOFOHF
         public static let data: UInt64 = 0x10
         /// AOKBGKNKKLJ
         public static let typeEntity: UInt64 = 0x18
     }
 
-    public enum UGCCustomEntityAttributeManager {
+    public enum UGCCustomEntityAttributeManager_3 {
         /// int
         public static let i: UInt64 = 0x10
     }
 
-    public enum UGCCustomEntityAttributeManager {
+    public enum UGCCustomEntityAttributeManager_4 {
         /// int
         public static let i: UInt64 = 0x10
     }
 
-    public enum UGCCustomEntityAttributeManager {
+    public enum UGCCustomEntityAttributeManager_5 {
         /// EditorEntityData
         public static let m_EditorEntityData: UInt64 = 0x20
         /// AOKBGKNKKLJ>
@@ -36791,7 +36615,7 @@ public enum ESPOffsets {
         public static let localRotation: UInt64 = 0x40
     }
 
-    public enum UGCFFPlayerAvatarCache {
+    public enum UGCFFPlayerAvatarCache_1 {
         /// UGCFFPlayerAvatarCacheItem>>
         public static let m_cache: UInt64 = 0x20
     }
@@ -36801,12 +36625,12 @@ public enum ESPOffsets {
         public static let bone: UInt64 = 0x20
     }
 
-    public enum UGCCustomPlayerAvatar {
+    public enum UGCCustomPlayerAvatar_1 {
         /// string
         public static let ugcPlayerResUUID: UInt64 = 0x28
     }
 
-    public enum UGCCustomPlayerAvatar {
+    public enum UGCCustomPlayerAvatar_2 {
         /// Transform>
         public static let m_codeNeedBones: UInt64 = 0x20
         /// string
@@ -36825,54 +36649,54 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum EditorEntityData {
+    public enum EditorEntityData_1 {
         /// string
         public static let entityID: UInt64 = 0x10
     }
 
-    public enum EditorEntityData {
+    public enum EditorEntityData_2 {
         /// string
         public static let entityType: UInt64 = 0x10
     }
 
-    public enum EditorEntityData {
+    public enum EditorEntityData_3 {
         /// string
         public static let entityID: UInt64 = 0x10
         /// string
         public static let entityType: UInt64 = 0x18
     }
 
-    public enum EditorEntityData {
+    public enum EditorEntityData_4 {
         /// string
         public static let entityID: UInt64 = 0x10
     }
 
-    public enum EditorEntityData {
+    public enum EditorEntityData_5 {
         /// string
         public static let entityID: UInt64 = 0x10
     }
 
-    public enum EditorEntityData {
+    public enum EditorEntityData_6 {
         /// string
         public static let entityType: UInt64 = 0x10
     }
 
-    public enum EditorEntityData {
+    public enum EditorEntityData_7 {
         /// long
         public static let componentID: UInt64 = 0x10
     }
 
-    public enum EditorEntityData {
+    public enum EditorEntityData_8 {
         /// string
         public static let entityType: UInt64 = 0x10
     }
 
-    public enum EditorEntityData {
+    public enum EditorEntityData_9 {
         /// bool>
         public static let selector: UInt64 = 0x10
     }
 
-    public enum EditorEntityData {
+    public enum EditorEntityData_10 {
         /// List<INAMDLOFOHF>>
         public static let m_EntityData: UInt64 = 0x10
         /// bool
@@ -36949,7 +36773,7 @@ public enum ESPOffsets {
         public static let valueNew: UInt64 = 0x18
     }
 
-    public enum UGCEffectEntityNew {
+    public enum UGCEffectEntityNew_1 {
         /// GameObject
         public static let m_effectObject: UInt64 = 0x20
         /// UGCEntityRepItem
@@ -37010,7 +36834,7 @@ public enum ESPOffsets {
         public static let OneShotTime: UInt64 = 0x18
     }
 
-    public enum UGCSoundEntity {
+    public enum UGCSoundEntity_2 {
         /// AudioResource
         public static let m_2DEngineResource: UInt64 = 0x20
         /// GameObject
@@ -37047,8 +36871,6 @@ public enum ESPOffsets {
         public static let TrackObject: UInt64 = 0x80
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UGCSoundEntityV2 {
@@ -37056,7 +36878,7 @@ public enum ESPOffsets {
         public static let state: UInt64 = 0x28
     }
 
-    public enum UGCSoundEntityV2 {
+    public enum UGCSoundEntityV2_1 {
         /// AudioResource
         public static let m_2DEngineResource: UInt64 = 0x20
         /// GameObject
@@ -37246,7 +37068,7 @@ public enum ESPOffsets {
         public static let replaceClip: UInt64 = 0x10
     }
 
-    public enum UGCResCustomPlayer {
+    public enum UGCResCustomPlayer_1 {
         /// HMBABKEOFIJ
         public static let m_resPlayerData: UInt64 = 0x50
         /// UGCResOneAvatar
@@ -37289,7 +37111,7 @@ public enum ESPOffsets {
         public static let JNJMGKIDDKJ: UInt64 = 0x18
     }
 
-    public enum NewPlayerAnimationSystemComponent {
+    public enum NewPlayerAnimationSystemComponent_1 {
         /// bool
         public static let KNANPAJBDDL: UInt64 = 0x78
         /// bool
@@ -37523,10 +37345,6 @@ public enum ESPOffsets {
     public enum COWReplicationEntity {
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum LevelObjectAttackableEntity {
@@ -37547,19 +37365,19 @@ public enum ESPOffsets {
         public static let NPIEOEPMAFN: UInt64 = 0x1C
     }
 
-    public enum Player {
+    public enum Player_1 {
         /// string
         public static let icon: UInt64 = 0x10
     }
 
-    public enum Player {
+    public enum Player_2 {
         /// int
         public static let FHAPLNEIBFB: UInt64 = 0x10
         /// uint
         public static let LMAIHDKMAKA: UInt64 = 0x14
     }
 
-    public enum Player {
+    public enum Player_3 {
         /// BHGGAEEHJCO
         public static let OBMFMAKFDDL: UInt64 = 0x10
         /// float
@@ -37568,7 +37386,7 @@ public enum ESPOffsets {
         public static let HFFLIFNIBAO: UInt64 = 0x2C
     }
 
-    public enum Player {
+    public enum Player_4 {
         /// BHGGAEEHJCO
         public static let GJKKLNLABPO: UInt64 = 0x10
         /// Vector3
@@ -37579,7 +37397,7 @@ public enum ESPOffsets {
         public static let CPDJFHOACGO: UInt64 = 0x35
     }
 
-    public enum Player {
+    public enum Player_5 {
         /// bool
         public static let ELOJGNBBPGH: UInt64 = 0x10
         /// BHGGAEEHJCO
@@ -37592,7 +37410,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_6 {
         /// ACOGBMIGNPI
         public static let GNONLBKPFGN: UInt64 = 0x10
         /// BHGGAEEHJCO
@@ -37603,14 +37421,14 @@ public enum ESPOffsets {
         public static let IJKDAJNDOKC: UInt64 = 0x34
     }
 
-    public enum Player {
+    public enum Player_7 {
         /// bool
         public static let NEJAACDIIPH: UInt64 = 0x10
         /// BHGGAEEHJCO
         public static let GJKKLNLABPO: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_8 {
         /// BHGGAEEHJCO
         public static let KOHOAGNJKAB: UInt64 = 0x10
         /// int
@@ -37619,7 +37437,7 @@ public enum ESPOffsets {
         public static let APFCFAOFKFA: UInt64 = 0x2C
     }
 
-    public enum Player {
+    public enum Player_9 {
         /// uint
         public static let BHGGAEEHJCO: UInt64 = 0x10
         /// List<uint>
@@ -37628,7 +37446,7 @@ public enum ESPOffsets {
         public static let IAELPIEBMIN: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_10 {
         /// BKGEMKGCLAK
         public static let CKKFFEDANPH: UInt64 = 0x10
         /// uint
@@ -37641,14 +37459,14 @@ public enum ESPOffsets {
         public static let LEOKMNIDBAJ: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_11 {
         /// bool
         public static let IBODNHGPKBM: UInt64 = 0x10
         /// Vector3
         public static let KELNCEHFDMA: UInt64 = 0x14
     }
 
-    public enum Player {
+    public enum Player_12 {
         /// BHGGAEEHJCO
         public static let BNEAGPEAPMG: UInt64 = 0x10
         /// string
@@ -37661,7 +37479,7 @@ public enum ESPOffsets {
         public static let GEDHAKIBLMO: UInt64 = 0x38
     }
 
-    public enum Player {
+    public enum Player_13 {
         /// BHGGAEEHJCO
         public static let EIGOHHAOIHL: UInt64 = 0x10
         /// bool
@@ -37678,7 +37496,7 @@ public enum ESPOffsets {
         public static let LNPLNACJHIP: UInt64 = 0x33
     }
 
-    public enum Player {
+    public enum Player_14 {
         /// BHGGAEEHJCO
         public static let BNEAGPEAPMG: UInt64 = 0x10
         /// KCLBKEBAILK
@@ -37689,7 +37507,7 @@ public enum ESPOffsets {
         public static let HPBOHPJPKCI: UInt64 = 0x30
     }
 
-    public enum Player {
+    public enum Player_15 {
         /// string
         public static let EKCFPAGLOIL: UInt64 = 0x10
         /// bool
@@ -37700,7 +37518,7 @@ public enum ESPOffsets {
         public static let ONMBKILPMJM: UInt64 = 0x38
     }
 
-    public enum Player {
+    public enum Player_16 {
         /// BHGGAEEHJCO
         public static let BNEAGPEAPMG: UInt64 = 0x10
         /// KCLBKEBAILK
@@ -37711,7 +37529,7 @@ public enum ESPOffsets {
         public static let ONMBKILPMJM: UInt64 = 0x30
     }
 
-    public enum Player {
+    public enum Player_17 {
         /// string
         public static let JPODNJEIEGL: UInt64 = 0x10
         /// bool
@@ -37724,7 +37542,7 @@ public enum ESPOffsets {
         public static let HAAMGLBLBKA: UInt64 = 0x24
     }
 
-    public enum Player {
+    public enum Player_18 {
         /// KCLBKEBAILK
         public static let JPODNJEIEGL: UInt64 = 0x10
         /// bool
@@ -37735,7 +37553,7 @@ public enum ESPOffsets {
         public static let HAAMGLBLBKA: UInt64 = 0x1C
     }
 
-    public enum Player {
+    public enum Player_19 {
         /// string
         public static let JPODNJEIEGL: UInt64 = 0x10
         /// bool
@@ -37746,7 +37564,7 @@ public enum ESPOffsets {
         public static let HPBOHPJPKCI: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_20 {
         /// KCLBKEBAILK
         public static let JPODNJEIEGL: UInt64 = 0x10
         /// bool
@@ -37757,24 +37575,24 @@ public enum ESPOffsets {
         public static let HPBOHPJPKCI: UInt64 = 0x1C
     }
 
-    public enum Player {
+    public enum Player_21 {
         /// string
         public static let JPODNJEIEGL: UInt64 = 0x10
     }
 
-    public enum Player {
+    public enum Player_22 {
         /// KCLBKEBAILK
         public static let JPODNJEIEGL: UInt64 = 0x10
     }
 
-    public enum Player {
+    public enum Player_23 {
         /// KCLBKEBAILK
         public static let JPODNJEIEGL: UInt64 = 0x10
         /// string
         public static let BNCMCLIJPJN: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_24 {
         /// BHGGAEEHJCO
         public static let ANHLIHEKECE: UInt64 = 0x10
         /// BHGGAEEHJCO
@@ -37811,21 +37629,21 @@ public enum ESPOffsets {
         public static let KFHFJCCOHFD: UInt64 = 0x74
     }
 
-    public enum Player {
+    public enum Player_25 {
         /// IOENNEBCHBF
         public static let CCPHKBJGHNG: UInt64 = 0x10
         /// EPickupListOp
         public static let ONGDPMDEBCB: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_26 {
         /// LevelContainer
         public static let CCPHKBJGHNG: UInt64 = 0x10
         /// EPickupListOp
         public static let ONGDPMDEBCB: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_27 {
         /// EPreparationTimerType
         public static let EPJNCHPEKMM: UInt64 = 0x10
         /// bool
@@ -37844,26 +37662,26 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_28 {
         /// IMNFFGNAACK
         public static let HOMFEFMMKIG: UInt64 = 0x10
         /// int
         public static let EJIFNLJBCMP: UInt64 = 0x14
     }
 
-    public enum Player {
+    public enum Player_29 {
         /// BHGGAEEHJCO
         public static let BNEAGPEAPMG: UInt64 = 0x10
     }
 
-    public enum Player {
+    public enum Player_30 {
         /// BHGGAEEHJCO
         public static let BNEAGPEAPMG: UInt64 = 0x10
         /// bool
         public static let MANCKDNBDKP: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_31 {
         /// BHGGAEEHJCO
         public static let CACFKDEFAGE: UInt64 = 0x10
         /// BHGGAEEHJCO
@@ -37872,14 +37690,14 @@ public enum ESPOffsets {
         public static let EJJFPFENMBP: UInt64 = 0x40
     }
 
-    public enum Player {
+    public enum Player_32 {
         /// BHGGAEEHJCO
         public static let BNEAGPEAPMG: UInt64 = 0x10
         /// uint
         public static let GKOKMPCJDLE: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_33 {
         /// BHGGAEEHJCO
         public static let BNEAGPEAPMG: UInt64 = 0x10
         /// BHGGAEEHJCO
@@ -37890,7 +37708,7 @@ public enum ESPOffsets {
         public static let MKOIJMEHEEA: UInt64 = 0x44
     }
 
-    public enum Player {
+    public enum Player_34 {
         /// BHGGAEEHJCO
         public static let BNEAGPEAPMG: UInt64 = 0x10
         /// byte
@@ -37907,7 +37725,7 @@ public enum ESPOffsets {
         public static let JNPGFPKNAGO: UInt64 = 0x40
     }
 
-    public enum Player {
+    public enum Player_35 {
         /// ESPVisualType
         public static let LPDLNOONDKC: UInt64 = 0x10
         /// Color
@@ -37924,15 +37742,9 @@ public enum ESPOffsets {
         public static let GHOOANIHJCF: UInt64 = 0x50
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_36 {
         /// EntityInfo
         public static let BFFJDHJFCCG: UInt64 = 0x10
         /// Vector3
@@ -37945,35 +37757,23 @@ public enum ESPOffsets {
         public static let KDLNHGPBGLI: UInt64 = 0x41
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_37 {
         /// float
         public static let AEIAAHOOABN: UInt64 = 0x10
         /// float
         public static let PMPGHGFHCLF: UInt64 = 0x14
         /// byte
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
+    }
+
+    public enum Player_38 {
         /// int
         public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-    }
-
-    public enum Player {
+    public enum Player_39 {
         /// Material
         public static let DJNMFEAFJOB: UInt64 = 0x10
         /// CommandBuffer
@@ -37998,14 +37798,12 @@ public enum ESPOffsets {
         public static let JOOAAPCPFHL: UInt64 = 0x49
     }
 
-    public enum Player {
-        /// int
-        public static let value__: UInt64 = 0x0
+    public enum Player_41 {
         /// int
         public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_42 {
         /// GameObject
         public static let root: UInt64 = 0x20
         /// bool
@@ -38044,12 +37842,12 @@ public enum ESPOffsets {
         public static let OGPPPAMFCJB: UInt64 = 0xA8
     }
 
-    public enum Player {
+    public enum Player_43 {
         /// List<Transform>
         public static let KHOPJGJKMNE: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_44 {
         /// List<string>
         public static let HFGONOOPEEC: UInt64 = 0x0
         /// List<Transform>
@@ -38064,7 +37862,7 @@ public enum ESPOffsets {
         public static let MGIHFIIHFGG: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_45 {
         /// ulong
         public static let MLIPJLJCLFI: UInt64 = 0x18
         /// COOFONGLAIB
@@ -38081,7 +37879,7 @@ public enum ESPOffsets {
         public static let FBJGNMNJFHF: UInt64 = 0x34
     }
 
-    public enum Player {
+    public enum Player_46 {
         /// uint
         public static let KKOFNKKHOKL: UInt64 = 0x10
         /// byte
@@ -38092,14 +37890,14 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_47 {
         /// Vector3
         public static let IFPPDLCPGEL: UInt64 = 0x0
         /// Vector3
         public static let KJFDBODHPII: UInt64 = 0xC
     }
 
-    public enum Player {
+    public enum Player_48 {
         /// BHGGAEEHJCO
         public static let CEHFOENKODO: UInt64 = 0x10
         /// byte
@@ -38112,20 +37910,16 @@ public enum ESPOffsets {
         public static let AAALPDMDOBN: UInt64 = 0x2E
     }
 
-    public enum Player {
+    public enum Player_49 {
         /// ushort
         public static let MEJJIIKOMKM: UInt64 = 0x10
         /// ushort
         public static let CCMGPKIHGGB: UInt64 = 0x12
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_50 {
         /// Player
         public static let MBPMMLMJOHL: UInt64 = 0x10
         /// IGJPHDANPJD
@@ -38148,7 +37942,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_51 {
         /// BitArrayBoolean
         public static let ANMKEJNIKFD: UInt64 = 0x10
         /// HashSet<uint>
@@ -38159,19 +37953,9 @@ public enum ESPOffsets {
         public static let CEKBKGIABMO: UInt64 = 0x28
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_52 {
         /// uint
         public static let IMIFCILMHDC: UInt64 = 0x10
         /// float
@@ -38180,7 +37964,7 @@ public enum ESPOffsets {
         public static let CKMCCHKEIFM: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_53 {
         /// Player
         public static let IAMDEGAAELH: UInt64 = 0x30
         /// BitArrayBoolean
@@ -38193,24 +37977,16 @@ public enum ESPOffsets {
         public static let CDFOMFLKCBJ: UInt64 = 0x50
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_54 {
         /// BHGGAEEHJCO
         public static let BAFEIAKDCEK: UInt64 = 0x10
         /// ILinkTwoPointEffect
         public static let DOAJLBPIENL: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_55 {
         /// Player
         public static let GJKKLNLABPO: UInt64 = 0x10
         /// IGJPHDANPJD
@@ -38221,24 +37997,22 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_56 {
         /// EOGPGNIDOKF
         public static let BIJCHKALEBE: UInt64 = 0x10
     }
 
-    public enum Player {
+    public enum Player_63 {
         /// bool
         public static let EIHGIKFIBEM: UInt64 = 0x20
     }
 
-    public enum Player {
-        /// int
-        public static let value__: UInt64 = 0x0
+    public enum Player_81 {
         /// int
         public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_82 {
         /// bool
         public static let INPKKGMOBLM: UInt64 = 0x10
         /// DGNALFBNMDP
@@ -38247,7 +38021,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum Player {
+    public enum Player_83 {
         /// uint
         public static let ODPHDCONHPI: UInt64 = 0x10
         /// uint
@@ -38270,7 +38044,7 @@ public enum ESPOffsets {
         public static let LIEPIBNBGKB: UInt64 = 0x38
     }
 
-    public enum Player {
+    public enum Player_85 {
         /// Player
         public static let LDCIMNAAGNO: UInt64 = 0x10
         /// Vector3
@@ -38279,21 +38053,21 @@ public enum ESPOffsets {
         public static let ABKDDMOLCBC: UInt64 = 0x24
     }
 
-    public enum Player {
+    public enum Player_86 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// ITransformNode
         public static let DELFNCBMJIM: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_87 {
         /// float
         public static let PCKBJNOLGEJ: UInt64 = 0x10
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_88 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// LevelTeleportDoor
@@ -38302,21 +38076,21 @@ public enum ESPOffsets {
         public static let ONFPCIABJJC: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_89 {
         /// EntityVisualEffectManager
         public static let GNGLJGFBCLK: UInt64 = 0x10
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_90 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// bool
         public static let JFNHFMJCLJJ: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_91 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// ResourceID
@@ -38325,7 +38099,7 @@ public enum ESPOffsets {
         public static let CNKMEPFCJOM: UInt64 = 0x1C
     }
 
-    public enum Player {
+    public enum Player_92 {
         /// TransformData
         public static let ICHJBEPFCOO: UInt64 = 0x10
         /// Player
@@ -38336,7 +38110,7 @@ public enum ESPOffsets {
         public static let CEHELPAIELA: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_93 {
         /// TransformData
         public static let ICHJBEPFCOO: UInt64 = 0x10
         /// Player
@@ -38347,7 +38121,7 @@ public enum ESPOffsets {
         public static let CEHELPAIELA: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_94 {
         /// TransformData
         public static let ICHJBEPFCOO: UInt64 = 0x10
         /// Player
@@ -38360,31 +38134,31 @@ public enum ESPOffsets {
         public static let CEHELPAIELA: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_95 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// AvatarTransformData
         public static let CBGLCANKIJA: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_96 {
         /// GameObject
         public static let ADDGINGLHBN: UInt64 = 0x10
     }
 
-    public enum Player {
+    public enum Player_97 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// uint
         public static let KOAALACEJED: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_98 {
         /// BHGGAEEHJCO
         public static let OBMFMAKFDDL: UInt64 = 0x10
     }
 
-    public enum Player {
+    public enum Player_99 {
         /// Action<bool>
         public static let PPPKMNCCEOA: UInt64 = 0x10
         /// Player
@@ -38395,7 +38169,7 @@ public enum ESPOffsets {
         public static let PCMPHDMHGHF: UInt64 = 0x24
     }
 
-    public enum Player {
+    public enum Player_100 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// uint
@@ -38404,7 +38178,7 @@ public enum ESPOffsets {
         public static let HDFILHFDBKB: UInt64 = 0x1C
     }
 
-    public enum Player {
+    public enum Player_101 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// uint
@@ -38413,7 +38187,7 @@ public enum ESPOffsets {
         public static let HBIECBMJCDO: UInt64 = 0x1C
     }
 
-    public enum Player {
+    public enum Player_102 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// uint
@@ -38424,7 +38198,7 @@ public enum ESPOffsets {
         public static let JEDILDMEEPP: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_103 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// uint
@@ -38435,7 +38209,7 @@ public enum ESPOffsets {
         public static let BFCJFEBCLHP: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_104 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// uint
@@ -38444,7 +38218,7 @@ public enum ESPOffsets {
         public static let EIOKHLKJEEL: UInt64 = 0x1C
     }
 
-    public enum Player {
+    public enum Player_105 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// uint
@@ -38453,42 +38227,42 @@ public enum ESPOffsets {
         public static let EIOKHLKJEEL: UInt64 = 0x1C
     }
 
-    public enum Player {
+    public enum Player_106 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// uint
         public static let EIOKHLKJEEL: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_107 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// byte
         public static let AJPCBMBKNJC: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_108 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// OnManagedInstanceAttached
         public static let IKNHMADBKPE: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_109 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// COOJMNODMOC
         public static let APHHNHEDHKD: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_110 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// COOJMNODMOC
         public static let APHHNHEDHKD: UInt64 = 0x18
     }
 
-    public enum Player {
+    public enum Player_111 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// Player
@@ -38497,7 +38271,7 @@ public enum ESPOffsets {
         public static let ALAGJBHFFBL: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_112 {
         /// Player
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// CollectionSuperEmote
@@ -38506,7 +38280,7 @@ public enum ESPOffsets {
         public static let APHHNHEDHKD: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_113 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38517,7 +38291,7 @@ public enum ESPOffsets {
         public static let BAFIFNKBHLC: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_114 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38528,7 +38302,7 @@ public enum ESPOffsets {
         public static let BAFIFNKBHLC: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_115 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38537,7 +38311,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_116 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38546,7 +38320,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_117 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38555,7 +38329,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_118 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38566,7 +38340,7 @@ public enum ESPOffsets {
         public static let CNDEFCOKDMK: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_119 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38585,7 +38359,7 @@ public enum ESPOffsets {
         public static let PLPNKBNKODL: UInt64 = 0x48
     }
 
-    public enum Player {
+    public enum Player_120 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38594,7 +38368,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_121 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38603,7 +38377,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_122 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38616,7 +38390,7 @@ public enum ESPOffsets {
         public static let LIHNBGOGPAH: UInt64 = 0x30
     }
 
-    public enum Player {
+    public enum Player_123 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38629,7 +38403,7 @@ public enum ESPOffsets {
         public static let OJEPOBEENEK: UInt64 = 0x2C
     }
 
-    public enum Player {
+    public enum Player_124 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38638,7 +38412,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_125 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38649,7 +38423,7 @@ public enum ESPOffsets {
         public static let BHLPPNDJKGB: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_126 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38660,7 +38434,7 @@ public enum ESPOffsets {
         public static let KFMPAFHIGPF: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_127 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38677,7 +38451,7 @@ public enum ESPOffsets {
         public static let GACDGGJFKLO: UInt64 = 0x38
     }
 
-    public enum Player {
+    public enum Player_128 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38688,7 +38462,7 @@ public enum ESPOffsets {
         public static let FOGNPDBNBDK: UInt64 = 0x28
     }
 
-    public enum Player {
+    public enum Player_129 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38697,7 +38471,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_130 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38706,7 +38480,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_131 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38715,7 +38489,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum Player {
+    public enum Player_132 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -38728,7 +38502,7 @@ public enum ESPOffsets {
         public static let LIKPJDHGPFG: UInt64 = 0x2C
     }
 
-    public enum Player {
+    public enum Player_133 {
         /// uint>
         public static let NLAINMKCJJA: UInt64 = 0x88
         /// uint>
@@ -41542,7 +41316,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum CameraControllerManager {
+    public enum CameraControllerManager_1 {
         /// string
         public static let EDBNBDIIJJA: UInt64 = 0x10
         /// int
@@ -41551,7 +41325,7 @@ public enum ESPOffsets {
         public static let DPMIFADBJMN: UInt64 = 0x1C
     }
 
-    public enum CameraControllerManager {
+    public enum CameraControllerManager_2 {
         /// Camera
         public static let BAGLCCLIOEK: UInt64 = 0x20
         /// Camera
@@ -41603,7 +41377,7 @@ public enum ESPOffsets {
         public static let PAJHJBNMLPE: UInt64 = 0x28
     }
 
-    public enum CameraModePhotoTemplateCamera {
+    public enum CameraModePhotoTemplateCamera_1 {
         /// AvatarManager
         public static let FFGLNMFFDEC: UInt64 = 0x1A8
         /// EPPlayerInfo
@@ -41916,8 +41690,6 @@ public enum ESPOffsets {
         public static let MMLILLAMFCG: UInt64 = 0x1A0
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum FollowEmoteCamera {
@@ -42013,7 +41785,7 @@ public enum ESPOffsets {
         public static let m_EnableCameraHeight: UInt64 = 0x8A
     }
 
-    public enum CameraParam {
+    public enum CameraParam_1 {
         /// uint
         public static let chessType: UInt64 = 0x10
         /// GameObject
@@ -42413,8 +42185,6 @@ public enum ESPOffsets {
         public static let PCMBDGJNBCB: UInt64 = 0x80
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UGCObserverCamera {
@@ -42527,7 +42297,7 @@ public enum ESPOffsets {
         public static let IKKKHHFJKPF: UInt64 = 0x1C
     }
 
-    public enum VehicleDriverCamera {
+    public enum VehicleDriverCamera_1 {
         /// float[]
         public static let JCONDDPFBKK: UInt64 = 0x10
         /// int
@@ -42538,7 +42308,7 @@ public enum ESPOffsets {
         public static let BCBPFCMLJAF: UInt64 = 0x20
     }
 
-    public enum VehicleDriverCamera {
+    public enum VehicleDriverCamera_2 {
         /// VehicleDriverCamera
         public static let Instance: UInt64 = 0x0
         /// int
@@ -42630,8 +42400,6 @@ public enum ESPOffsets {
         public static let DMKEEIBBLPE: UInt64 = 0xB8
         /// int
         public static let value__: UInt64 = 0x0
-        /// uint
-        public static let value__: UInt64 = 0x0
     }
 
     public enum PlayerNetwork {
@@ -42669,14 +42437,14 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum PlayerNetwork {
+    public enum PlayerNetwork_2 {
         /// PlayerNetwork
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// uint
         public static let ODBHABBADHF: UInt64 = 0x18
     }
 
-    public enum PlayerNetwork {
+    public enum PlayerNetwork_3 {
         /// PlayerNetwork
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// IGJPHDANPJD
@@ -42687,14 +42455,14 @@ public enum ESPOffsets {
         public static let OINKNIGKDMO: UInt64 = 0x20
     }
 
-    public enum PlayerNetwork {
+    public enum PlayerNetwork_4 {
         /// PlayerNetwork
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// KKHHIILGECK
         public static let APHHNHEDHKD: UInt64 = 0x18
     }
 
-    public enum PlayerNetwork {
+    public enum PlayerNetwork_5 {
         /// bool
         public static let NBMJBFDAKLB: UInt64 = 0x2258
         /// bool
@@ -42944,7 +42712,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum AutoFireWeapon {
+    public enum AutoFireWeapon_1 {
         /// AutoFireWeaponData
         public static let GFBHKKMBJLJ: UInt64 = 0x68
         /// GameObject
@@ -43233,7 +43001,7 @@ public enum ESPOffsets {
         public static let BCOEMABLKGE: UInt64 = 0x50
     }
 
-    public enum MatchTeam {
+    public enum MatchTeam_1 {
         /// byte
         public static let BLDIFPJGDCI: UInt64 = 0x7C
         /// uint
@@ -43365,7 +43133,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum PlayerAttributes {
+    public enum PlayerAttributes_1 {
         /// Player
         public static let MBPMMLMJOHL: UInt64 = 0x20
         /// float>
@@ -43707,7 +43475,7 @@ public enum ESPOffsets {
         public static let MCINPOLAAEP: UInt64 = 0x20
     }
 
-    public enum PlayerForceTutorialBot {
+    public enum PlayerForceTutorialBot_1 {
         /// bool
         public static let IsKnockDown: UInt64 = 0x23EC
         /// bool
@@ -43722,8 +43490,6 @@ public enum ESPOffsets {
         public static let MANMEPDACKC: UInt64 = 0x23F4
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum PlayerForceTutorialLocal {
@@ -43733,7 +43499,7 @@ public enum ESPOffsets {
         public static let FCCLKPCBCDA: UInt64 = 0x18
     }
 
-    public enum PlayerForceTutorialLocal {
+    public enum PlayerForceTutorialLocal_1 {
         /// PlayerForceTutorialLocal
         public static let KOKNHFGCGLN: UInt64 = 0x10
         /// bool
@@ -43744,7 +43510,7 @@ public enum ESPOffsets {
         public static let FPOMKOPIJJL: UInt64 = 0x28
     }
 
-    public enum PlayerForceTutorialLocal {
+    public enum PlayerForceTutorialLocal_2 {
         /// float
         public static let JMIJIINPKGM: UInt64 = 0x23EC
         /// uint
@@ -43823,7 +43589,7 @@ public enum ESPOffsets {
         public static let NNIAIEKPFGD: UInt64 = 0x23F8
     }
 
-    public enum PlayerReaper {
+    public enum PlayerReaper_1 {
         /// Transform
         public static let LKCDAFFDJNK: UInt64 = 0x23F0
         /// GameObject
@@ -43836,14 +43602,6 @@ public enum ESPOffsets {
         public static let OOMAPGALPLI: UInt64 = 0x2418
         /// int>
         public static let JOGMFGNMGCG: UInt64 = 0x2420
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -43916,14 +43674,6 @@ public enum ESPOffsets {
         public static let JPKNLDKEBJB: UInt64 = 0x2419
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum PlayerUGCOffline {
@@ -43977,14 +43727,6 @@ public enum ESPOffsets {
         public static let NEODBBLGAEI: UInt64 = 0x23F8
         /// ParticleSystem
         public static let NALMOECPJCN: UInt64 = 0x2400
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -44133,16 +43875,6 @@ public enum ESPOffsets {
         public static let FKEMOMBMHEM: UInt64 = 0x40
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum PlayerSpawner {
@@ -44222,7 +43954,7 @@ public enum ESPOffsets {
         public static let FPHOHILFLAP: UInt64 = 0x30
     }
 
-    public enum SpecialCharacterVoiceTriggerManager {
+    public enum SpecialCharacterVoiceTriggerManager_1 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -44231,7 +43963,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum SpecialCharacterVoiceTriggerManager {
+    public enum SpecialCharacterVoiceTriggerManager_2 {
         /// List<MKLGEIOPGNM>>
         public static let NLJFGIMAKLH: UInt64 = 0x20
         /// float
@@ -44309,10 +44041,6 @@ public enum ESPOffsets {
         public static let m_SkateboardController: UInt64 = 0x40
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum FollowCameraVerticle {
@@ -44355,7 +44083,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum VerticleViewPlayer {
+    public enum VerticleViewPlayer_1 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -44364,7 +44092,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x20
     }
 
-    public enum VerticleViewPlayer {
+    public enum VerticleViewPlayer_2 {
         /// BHGGAEEHJCO
         public static let VPlayerId: UInt64 = 0x88
         /// bool
@@ -44486,12 +44214,12 @@ public enum ESPOffsets {
         public static let CGIEAOLABHM: UInt64 = 0x98
     }
 
-    public enum UIHUDTeamGatherInfoController {
+    public enum UIHUDTeamGatherInfoController_1 {
         /// BHGGAEEHJCO
         public static let FGDJMLACAMK: UInt64 = 0x10
     }
 
-    public enum UIHUDTeamGatherInfoController {
+    public enum UIHUDTeamGatherInfoController_2 {
         /// UIHUDTeamGatherInfoView
         public static let CGIEAOLABHM: UInt64 = 0x98
         /// float
@@ -44515,12 +44243,12 @@ public enum ESPOffsets {
         public static let ONEFJHILANG: UInt64 = 0x28
     }
 
-    public enum UIHUDTeamParachuteActionController {
+    public enum UIHUDTeamParachuteActionController_2 {
         /// Player
         public static let KDJNEHDAAFL: UInt64 = 0x10
     }
 
-    public enum UIHUDTeamParachuteActionController {
+    public enum UIHUDTeamParachuteActionController_3 {
         /// int
         public static let CBPPJACCGOH: UInt64 = 0x10
         /// object
@@ -44531,7 +44259,7 @@ public enum ESPOffsets {
         public static let KOKNHFGCGLN: UInt64 = 0x28
     }
 
-    public enum UIHUDTeamParachuteActionController {
+    public enum UIHUDTeamParachuteActionController_4 {
         /// UIHUDTeamParachuteActionView
         public static let CGIEAOLABHM: UInt64 = 0x98
         /// float
@@ -44727,14 +44455,14 @@ public enum ESPOffsets {
         public static let IgnorePlayerOldScale: UInt64 = 0x28
     }
 
-    public enum UGCPlayerBridge {
+    public enum UGCPlayerBridge_2 {
         /// string
         public static let emoteClipUUID: UInt64 = 0x10
         /// bool
         public static let overrideGamePlayControl: UInt64 = 0x20
     }
 
-    public enum UGCPlayerBridge {
+    public enum UGCPlayerBridge_3 {
         /// UGCEntityDataStore
         public static let m_DataStore: UInt64 = 0x10
         /// Player
@@ -44864,8 +44592,6 @@ public enum ESPOffsets {
     public enum UGCInternalEntityID {
         /// uint
         public static let value__: UInt64 = 0x0
-        /// byte
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UGCTransformNode {
@@ -44942,7 +44668,7 @@ public enum ESPOffsets {
         public static let AngularVelocity: UInt64 = 0x58
     }
 
-    public enum UGCTransformModule {
+    public enum UGCTransformModule_1 {
         /// UGCTransformNode>
         public static let m_NodesMap: UInt64 = 0x20
         /// HashSet<string>
@@ -45053,7 +44779,7 @@ public enum ESPOffsets {
         public static let isPending: UInt64 = 0x0
     }
 
-    public enum EventDispatcherOpt {
+    public enum EventDispatcherOpt_1 {
         /// List<T>
         public static let handlers: UInt64 = 0x0
         /// PendingHandler<T>>
@@ -45064,7 +44790,7 @@ public enum ESPOffsets {
         public static let isFrameProcessing: UInt64 = 0x0
     }
 
-    public enum EventDispatcherOpt {
+    public enum EventDispatcherOpt_2 {
         /// FTimer
         public static let m_Timer: UInt64 = 0x10
         /// IEnumerator
@@ -45075,7 +44801,7 @@ public enum ESPOffsets {
         public static let containers: UInt64 = 0x28
     }
 
-    public enum EventDispatcherOpt {
+    public enum EventDispatcherOpt_3 {
         /// EventHandler>
         public static let containers: UInt64 = 0x20
         /// object[]
@@ -45084,7 +44810,7 @@ public enum ESPOffsets {
         public static let timer: UInt64 = 0x30
     }
 
-    public enum EventDispatcherOpt {
+    public enum EventDispatcherOpt_4 {
         /// EventHandler>>
         public static let m_EventDict: UInt64 = 0x60
         /// VEventHandler>>
@@ -45390,7 +45116,7 @@ public enum ESPOffsets {
         public static let m_subject: UInt64 = 0x50
     }
 
-    public enum ClaimsIdentity {
+    public enum ClaimsIdentity_1 {
         /// byte[]
         public static let m_userSerializationData: UInt64 = 0x10
         /// List<Claim>
@@ -45464,8 +45190,6 @@ public enum ESPOffsets {
         public static let _val: UInt64 = 0x10
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum InternalsVisibleToAttribute {
@@ -45482,7 +45206,7 @@ public enum ESPOffsets {
         public static let offset: UInt64 = 0x4
     }
 
-    public enum TransformData {
+    public enum TransformData_2 {
         /// Rotate
         public static let rotate: UInt64 = 0x0
         /// Scale
@@ -45540,10 +45264,6 @@ public enum ESPOffsets {
         public static let charEntity: UInt64 = 0x38
         /// int
         public static let charEntityIndex: UInt64 = 0x40
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -45709,7 +45429,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum SpringPosition {
+    public enum SpringPosition_1 {
         /// SpringPosition
         public static let current: UInt64 = 0x0
         /// Vector3
@@ -45810,12 +45530,12 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UICamera {
+    public enum UICamera_7 {
         /// int
         public static let value__: UInt64 = 0x0
     }
 
-    public enum UICamera {
+    public enum UICamera_17 {
         /// int
         public static let depth: UInt64 = 0x0
         /// RaycastHit
@@ -45826,7 +45546,7 @@ public enum ESPOffsets {
         public static let go: UInt64 = 0x40
     }
 
-    public enum UICamera {
+    public enum UICamera_18 {
         /// int
         public static let fingerId: UInt64 = 0x10
         /// TouchPhase
@@ -45837,7 +45557,7 @@ public enum ESPOffsets {
         public static let tapCount: UInt64 = 0x20
     }
 
-    public enum UICamera {
+    public enum UICamera_22 {
         /// BetterList<UICamera>
         public static let list: UInt64 = 0x0
         /// GetKeyStateFunc
@@ -46050,8 +45770,6 @@ public enum ESPOffsets {
         public static let m_RenderUIToMainCam: UInt64 = 0xA8
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
     public enum UIOrthoCamera {
@@ -46070,12 +45788,12 @@ public enum ESPOffsets {
         public static let PointEnd: UInt64 = 0x1C
     }
 
-    public enum XWeaponTrail {
+    public enum XWeaponTrail_1 {
         /// Element>
         public static let _stack: UInt64 = 0x10
     }
 
-    public enum XWeaponTrail {
+    public enum XWeaponTrail_2 {
         /// string
         public static let Version: UInt64 = 0x0
         /// bool
@@ -46386,7 +46104,7 @@ public enum ESPOffsets {
         public static let angleBuffer: UInt64 = 0x34
     }
 
-    public enum AimPoser {
+    public enum AimPoser_1 {
         /// float
         public static let angleBuffer: UInt64 = 0x20
         /// Pose[]
@@ -46413,7 +46131,7 @@ public enum ESPOffsets {
         public static let Default: UInt64 = 0x10
     }
 
-    public enum Camera {
+    public enum Camera_1 {
         /// CameraCallback
         public static let onPreCull: UInt64 = 0x0
         /// CameraCallback
@@ -46516,11 +46234,9 @@ public enum ESPOffsets {
     public enum DrivenRectTransformTracker {
         /// int
         public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
     }
 
-    public enum RectTransform {
+    public enum RectTransform_1 {
         /// ReapplyDrivenProperties
         public static let reapplyDrivenProperties: UInt64 = 0x0
     }
@@ -46532,11 +46248,7 @@ public enum ESPOffsets {
         public static let currentIndex: UInt64 = 0x18
     }
 
-    public enum Transform {
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
+    public enum Transform_1 {
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -46571,7 +46283,7 @@ public enum ESPOffsets {
         public static let numSubSystems: UInt64 = 0x20
     }
 
-    public enum PlayerLoopSystem {
+    public enum PlayerLoopSystem_1 {
         /// Type
         public static let type: UInt64 = 0x0
         /// PlayerLoopSystem[]
@@ -46589,17 +46301,17 @@ public enum ESPOffsets {
         public static let messageId: UInt64 = 0x10
     }
 
-    public enum PlayerConnection {
+    public enum PlayerConnection_1 {
         /// Guid
         public static let messageId: UInt64 = 0x10
     }
 
-    public enum PlayerConnection {
+    public enum PlayerConnection_2 {
         /// bool
         public static let msgReceived: UInt64 = 0x10
     }
 
-    public enum PlayerConnection {
+    public enum PlayerConnection_3 {
         /// IPlayerEditorConnectionNative
         public static let connectionNative: UInt64 = 0x0
         /// PlayerEditorConnectionEvents
@@ -46612,7 +46324,7 @@ public enum ESPOffsets {
         public static let s_Instance: UInt64 = 0x8
     }
 
-    public enum PlayerEditorConnectionEvents {
+    public enum PlayerEditorConnectionEvents_2 {
         /// string
         public static let m_messageTypeId: UInt64 = 0x10
         /// int
@@ -46621,22 +46333,22 @@ public enum ESPOffsets {
         public static let messageCallback: UInt64 = 0x20
     }
 
-    public enum PlayerEditorConnectionEvents {
+    public enum PlayerEditorConnectionEvents_3 {
         /// Guid
         public static let messageId: UInt64 = 0x10
     }
 
-    public enum PlayerEditorConnectionEvents {
+    public enum PlayerEditorConnectionEvents_4 {
         /// Guid
         public static let messageId: UInt64 = 0x10
     }
 
-    public enum PlayerEditorConnectionEvents {
+    public enum PlayerEditorConnectionEvents_5 {
         /// Guid
         public static let messageId: UInt64 = 0x10
     }
 
-    public enum PlayerEditorConnectionEvents {
+    public enum PlayerEditorConnectionEvents_6 {
         /// MessageTypeSubscribers>
         public static let messageTypeSubscribers: UInt64 = 0x10
         /// ConnectionChangeEvent
@@ -46648,20 +46360,6 @@ public enum ESPOffsets {
     }
 
     public enum CameraEventUtils {
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
-        /// int
-        public static let value__: UInt64 = 0x0
         /// int
         public static let value__: UInt64 = 0x0
     }
@@ -46715,7 +46413,7 @@ public enum ESPOffsets {
         public static let width: UInt64 = 0x20
     }
 
-    public enum BitMatrixParser {
+    public enum BitMatrixParser_1 {
         /// int[][]
         public static let BITNR: UInt64 = 0x0
         /// BitMatrix
@@ -46729,7 +46427,7 @@ public enum ESPOffsets {
         public static let decoder: UInt64 = 0x10
     }
 
-    public enum BitMatrixParser {
+    public enum BitMatrixParser_2 {
         /// BitMatrix
         public static let mappingBitMatrix: UInt64 = 0x10
         /// BitMatrix
@@ -46895,7 +46593,7 @@ public enum ESPOffsets {
         public static let value__: UInt64 = 0x0
     }
 
-    public enum VideoPlayer {
+    public enum VideoPlayer_4 {
         /// EventHandler
         public static let prepareCompleted: UInt64 = 0x18
         /// EventHandler

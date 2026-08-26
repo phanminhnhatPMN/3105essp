@@ -53,9 +53,13 @@ public enum WorldToScreen {
         let x = pos.x * m[0][0] + pos.y * m[1][0] + pos.z * m[2][0] + m[3][0]
         let y = pos.x * m[0][1] + pos.y * m[1][1] + pos.z * m[2][1] + m[3][1]
 
-        let screenX = (screenSize.width / 2.0) * (1.0 + x / w)
-        let screenY = (screenSize.height / 2.0) * (1.0 - y / w)
+        let screenWidth = Float(screenSize.width)
+        let screenHeight = Float(screenSize.height)
+
+        let screenX = (screenWidth / 2.0) * (1.0 + x / w)
+        let screenY = (screenHeight / 2.0) * (1.0 - y / w)
 
         return CGPoint(x: CGFloat(screenX), y: CGFloat(screenY))
     }
 }
+

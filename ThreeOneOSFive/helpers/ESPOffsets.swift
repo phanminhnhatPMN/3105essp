@@ -1,6 +1,6 @@
 //
 //  ESPOffsets.swift
-//  3105 - Auto-generated Free Fire ESP Offsets (Sanitized)
+//  3105 - Auto-generated Free Fire ESP Offsets (Fully Sanitized)
 //
 import Foundation
 
@@ -4978,7 +4978,7 @@ public enum ESPOffsets {
         /// List<TeamLeaderboardItem>
         public static let items: UInt64 = 0x10
         /// TeamLeaderboardItem
-        public static let self: UInt64 = 0x18
+        public static let self_val: UInt64 = 0x18
         /// uint
         public static let leaderboard_size: UInt64 = 0x20
     }
@@ -7882,7 +7882,7 @@ public enum ESPOffsets {
 
     public enum TeamUpBonusDesc {
         /// uint
-        public static let type: UInt64 = 0x10
+        public static let type_val: UInt64 = 0x10
         /// uint
         public static let link_factor: UInt64 = 0x14
         /// uint
@@ -8037,7 +8037,7 @@ public enum ESPOffsets {
         /// uint
         public static let id_weapon_skin: UInt64 = 0x18
         /// uint
-        public static let type: UInt64 = 0x1C
+        public static let type_val: UInt64 = 0x1C
     }
 
     public enum CityHeroBoy25BSettingDesc {
@@ -9170,7 +9170,7 @@ public enum ESPOffsets {
         /// uint
         public static let EnergyConsumption: UInt64 = 0xBC
         /// uint
-        public static let Type: UInt64 = 0xC0
+        public static let Type_val: UInt64 = 0xC0
         /// uint
         public static let MaxCount: UInt64 = 0xC4
         /// ResourceID
@@ -9522,7 +9522,7 @@ public enum ESPOffsets {
         /// uint
         public static let ID: UInt64 = 0x10
         /// uint
-        public static let Type: UInt64 = 0x14
+        public static let Type_val: UInt64 = 0x14
         /// uint
         public static let SubType: UInt64 = 0x18
         /// uint
@@ -9646,7 +9646,7 @@ public enum ESPOffsets {
         /// string
         public static let NameKey: UInt64 = 0x20
         /// uint
-        public static let Type: UInt64 = 0x28
+        public static let Type_val: UInt64 = 0x28
         /// string
         public static let TypeNameKey: UInt64 = 0x30
     }
@@ -10985,7 +10985,7 @@ public enum ESPOffsets {
 
     public enum TeamClothPrivilegeDetail {
         /// TeamClothPrivilegeType
-        public static let Type: UInt64 = 0x10
+        public static let Type_val: UInt64 = 0x10
         /// ResourceID
         public static let IconID: UInt64 = 0x14
         /// string
@@ -21225,7 +21225,7 @@ public enum ESPOffsets {
         /// NewPlayerGrowPathNodeState
         public static let NodeState: UInt64 = 0x1C
         /// NewPlayerGrowPathDataType
-        public static let Type: UInt64 = 0x20
+        public static let Type_val: UInt64 = 0x20
         /// AwardDesc
         public static let AwardItemDisplay: UInt64 = 0x28
         /// List<AwardDesc>
@@ -21625,7 +21625,7 @@ public enum ESPOffsets {
 
     public enum FMetroWeaponData {
         /// DBENAPILEBC
-        public static let Type: UInt64 = 0x18
+        public static let Type_val: UInt64 = 0x18
         /// AGACNOCEEFP
         public static let Data: UInt64 = 0x20
         /// NPEIMKGFIJN
@@ -25970,7 +25970,7 @@ public enum ESPOffsets {
 
     public enum UIHudMatchResult2TeamsGridItemBombView {
         /// GameObject
-        public static let Self: UInt64 = 0x88
+        public static let Self_val: UInt64 = 0x88
         /// UIButton
         public static let SimpleProfileInfo: UInt64 = 0x90
         /// UIEffectSprite
@@ -26007,7 +26007,7 @@ public enum ESPOffsets {
 
     public enum UIHudMatchResult2TeamsGridItemView {
         /// GameObject
-        public static let Self: UInt64 = 0x88
+        public static let Self_val: UInt64 = 0x88
         /// UIButton
         public static let SimpleProfileInfo: UInt64 = 0x90
         /// GameObject
@@ -28627,7 +28627,7 @@ public enum ESPOffsets {
         /// UILabel
         public static let FinishNum: UInt64 = 0xB8
         /// GameObject
-        public static let Self: UInt64 = 0xC0
+        public static let Self_val: UInt64 = 0xC0
     }
 
     public enum UIHUDUGC_MatchInfoTitle_TeammateView {
@@ -36267,7 +36267,7 @@ public enum ESPOffsets {
         /// string
         public static let personaID: UInt64 = 0x10
         /// EUGCGIPROTOCOL
-        public static let protocol: UInt64 = 0x18
+        public static let protocol_val: UInt64 = 0x18
         /// Action<LLMResponse>
         public static let onFinished: UInt64 = 0x20
     }
@@ -36604,7 +36604,7 @@ public enum ESPOffsets {
         /// int
         public static let instanceID: UInt64 = 0x10
         /// Transform
-        public static let self: UInt64 = 0x18
+        public static let self_val: UInt64 = 0x18
         /// Transform
         public static let parent: UInt64 = 0x20
         /// Vector3
@@ -46272,7 +46272,7 @@ public enum ESPOffsets {
 
     public enum PlayerLoopSystemInternal {
         /// Type
-        public static let type: UInt64 = 0x0
+        public static let type_val: UInt64 = 0x0
         /// UpdateFunction
         public static let updateDelegate: UInt64 = 0x8
         /// IntPtr
@@ -46285,7 +46285,7 @@ public enum ESPOffsets {
 
     public enum PlayerLoopSystem_1 {
         /// Type
-        public static let type: UInt64 = 0x0
+        public static let type_val: UInt64 = 0x0
         /// PlayerLoopSystem[]
         public static let subSystemList: UInt64 = 0x8
         /// UpdateFunction
@@ -46514,7 +46514,7 @@ public enum ESPOffsets {
         /// char[]
         public static let SpecialCharacters: UInt64 = 0x0
         /// JsonContainerType
-        public static let Type: UInt64 = 0x0
+        public static let Type_val: UInt64 = 0x0
         /// int
         public static let Position: UInt64 = 0x4
         /// string

@@ -29,38 +29,46 @@ public struct ESPOverlayCanvasView: View {
                     if let screenPos = WorldToScreen.transform(pos: entity.position, matrix: sampleMatrix, screenSize: size) {
                         log("[ESP Canvas] 🟢 Ent[\(idx)] '\(entity.name)' -> ScreenPos=(\(Int(screenPos.x)), \(Int(screenPos.y)))")
                         
-                        // 1. Draw Box centered on screenPos
-                        let boxWidth: CGFloat = 80.0
-                        let boxHeight: CGFloat = 160.0
+                        // 1. Draw Bright Outer Box Frame
+                        let boxWidth: CGFloat = 100.0
+                        let boxHeight: CGFloat = 180.0
                         let rect = CGRect(x: screenPos.x - boxWidth / 2, y: screenPos.y - boxHeight / 2, width: boxWidth, height: boxHeight)
                         
-                        context.stroke(Path(rect), with: .color(entity.isTeam ? .blue : .red), lineWidth: 3.5)
+                        // Semi-transparent background fill behind box
+                        context.fill(Path(rect), with: .color(.red.opacity(0.25)))
+                        context.stroke(Path(rect), with: .color(entity.isTeam ? .blue : .yellow), lineWidth: 4.0)
                         
-                        // 2. Draw Health Bar
+                        // 2. Draw Center Target Crosshair Circle
+                        let circleRect = CGRect(x: screenPos.x - 12, y: screenPos.y - 12, width: 24, height: 24)
+                        context.fill(Path(ellipseIn: circleRect), with: .color(.red))
+                        context.stroke(Path(ellipseIn: circleRect), with: .color(.white), lineWidth: 2)
+                        
+                        // 3. Draw Health Bar
                         let hpPercent = CGFloat(entity.health / entity.maxHealth)
-                        let hpRect = CGRect(x: rect.minX - 10, y: rect.maxY - boxHeight * hpPercent, width: 5, height: boxHeight * hpPercent)
+                        let hpRect = CGRect(x: rect.minX - 12, y: rect.maxY - boxHeight * hpPercent, width: 6, height: boxHeight * hpPercent)
                         context.fill(Path(hpRect), with: .color(.green))
+                        context.stroke(Path(hpRect), with: .color(.white), lineWidth: 1)
                         
-                        // 3. Draw Snapline
+                        // 4. Draw Snapline from bottom screen
                         var linePath = Path()
                         linePath.move(to: CGPoint(x: size.width / 2, y: size.height))
                         linePath.addLine(to: screenPos)
-                        context.stroke(linePath, with: .color(.red.opacity(0.85)), lineWidth: 2)
+                        context.stroke(linePath, with: .color(.cyan), lineWidth: 3)
                         
-                        // 4. Draw Distance Text
-                        let text = Text("\(entity.name) [\(Int(entity.distance))m]").font(.system(size: 14, weight: .bold)).foregroundColor(.yellow)
-                        context.draw(text, at: CGPoint(x: screenPos.x, y: rect.maxY + 14))
+                        // 5. Draw Distance Text Header
+                        let text = Text("🎯 \(entity.name) [\(Int(entity.distance))m]").font(.system(size: 16, weight: .black)).foregroundColor(.white)
+                        context.draw(text, at: CGPoint(x: screenPos.x, y: rect.minY - 14))
                     } else {
                         log("[ESP Canvas] ⚠️ Ent[\(idx)] '\(entity.name)' WorldToScreen return NIL")
                     }
                 }
-
             }
         }
         .ignoresSafeArea()
         .allowsHitTesting(false)
     }
 }
+
 
 
 public class ESPOverlayWindow {

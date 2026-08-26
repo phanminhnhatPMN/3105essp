@@ -70,7 +70,9 @@
 		3105K201 /* ESPMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105K101; };
 		3105K202 /* ESPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105K102; };
 		3105K203 /* ESPOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105K103; };
+		3105L200 /* FloatingMenuWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105L100; };
 		3105A228 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3105A120; };
+
 
 		3105A211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3105A031; };
 /* End PBXBuildFile section */
@@ -156,7 +158,9 @@
 		3105K101 /* ESPMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPMath.swift; sourceTree = "<group>"; };
 		3105K102 /* ESPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPManager.swift; sourceTree = "<group>"; };
 		3105K103 /* ESPOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPOverlayView.swift; sourceTree = "<group>"; };
+		3105L100 /* FloatingMenuWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenuWindow.swift; sourceTree = "<group>"; };
 		3105A121 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+
 
 		3105A122 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3105B123 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -236,10 +240,12 @@
 				3105F106 /* WallpaperLabView.swift */,
 				3105F108 /* OnboardingView.swift */,
 				3105K103 /* ESPOverlayView.swift */,
+				3105L100 /* FloatingMenuWindow.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
 		};
+
 		3105A405 /* helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -428,9 +434,11 @@
 				3105K201,
 				3105K202,
 				3105K203,
+				3105L200,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+
 
 /* End PBXSourcesBuildPhase section */
 

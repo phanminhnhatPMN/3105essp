@@ -82,6 +82,14 @@ struct LogView: View {
                             .disabled(appLog.entries.isEmpty)
                         
                         Button {
+                            FloatingMenuWindow.shared.show()
+                            log("[ESP] 🟢 Đã hiển thị Floating Mod Menu!")
+                        } label: {
+                            Label("Menu Nổi", systemImage: "flame.fill")
+                                .foregroundStyle(Color.orange)
+                        }
+
+                        Button {
                             if ESPManager.shared.isActive {
                                 ESPOverlayWindow.shared.hide()
                                 log("[ESP] 🔴 Đã tắt màn hình ESP Overlay.")
@@ -95,6 +103,7 @@ struct LogView: View {
                         }
                     }
                 }
+
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button {
                         UIPasteboard.general.string = shareText

@@ -68,10 +68,31 @@ public class ESPManager: ObservableObject {
     }
 
     private func readEntitiesFromRAM() -> [ESPEntity] {
-        // High-speed RAM reading using kreadbuf & kread64 primitives
         var result: [ESPEntity] = []
         
-        // Note: Real-time pointer walk will read from libil2cpp Base + Offsets
+        // Test Dummy Entities to verify UI rendering
+        let dummy1 = ESPEntity(
+            position: Vector3(x: 0, y: 1.5, z: 10),
+            name: "Enemy_1",
+            health: 80,
+            maxHealth: 100,
+            distance: 15,
+            isTeam: false
+        )
+        
+        let dummy2 = ESPEntity(
+            position: Vector3(x: -3, y: 1.5, z: 12),
+            name: "Enemy_2",
+            health: 45,
+            maxHealth: 100,
+            distance: 18,
+            isTeam: false
+        )
+        
+        result.append(dummy1)
+        result.append(dummy2)
+        
         return result
     }
+
 }

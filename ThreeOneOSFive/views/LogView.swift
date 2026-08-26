@@ -77,8 +77,23 @@ struct LogView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Button(language.text("logs.clear"), role: .destructive) { appLog.entries.removeAll() }
-                        .disabled(appLog.entries.isEmpty)
+                    HStack(spacing: 12) {
+                        Button(language.text("logs.clear"), role: .destructive) { appLog.entries.removeAll() }
+                            .disabled(appLog.entries.isEmpty)
+                        
+                        Button {
+                            if ESPManager.shared.isActive {
+                                ESPOverlayWindow.shared.hide()
+                                log("[ESP] 🔴 Đã tắt màn hình ESP Overlay.")
+                            } else {
+                                ESPOverlayWindow.shared.show()
+                                log("[ESP] 🟢 Đã bật màn hình ESP Overlay!")
+                            }
+                        } label: {
+                            Label(ESPManager.shared.isActive ? "Tắt ESP" : "Bật ESP", systemImage: ESPManager.shared.isActive ? "eye.slash.fill" : "eye.fill")
+                                .foregroundStyle(ESPManager.shared.isActive ? Color.green : AppTheme.accent)
+                        }
+                    }
                 }
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button {
@@ -101,6 +116,7 @@ struct LogView: View {
                         .fontWeight(.semibold)
                 }
             }
+
         }
     }
 }

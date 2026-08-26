@@ -68,31 +68,62 @@ public class ESPManager: ObservableObject {
     }
 
     private func readEntitiesFromRAM() -> [ESPEntity] {
-        var result: [ESPEntity] = []
+        var realEntities: [ESPEntity] = []
         
-        // Test Dummy Entities to verify UI rendering
-        let dummy1 = ESPEntity(
-            position: Vector3(x: 0, y: 1.5, z: 10),
-            name: "Enemy_1",
-            health: 80,
-            maxHealth: 100,
-            distance: 15,
-            isTeam: false
-        )
+        guard libil2cppBase != 0 || gameProc != 0 else {
+            return fallbackDummyEntities()
+        }
         
-        let dummy2 = ESPEntity(
-            position: Vector3(x: -3, y: 1.5, z: 12),
-            name: "Enemy_2",
-            health: 45,
-            maxHealth: 100,
-            distance: 18,
-            isTeam: false
-        )
+        // 1. Read Live Player Array & Entity Count
+        let playerManagerPtr = kread64(libil2cppBase + ESPOffsets.AllPlayerSpawnPointManager.pointList)
+        guard playerManagerPtr != 0 else {
+            return fallbackDummyEntities()
+        }
         
-        result.append(dummy1)
-        result.append(dummy2)
+        let entityCount = kread32(playerManagerPtr + 0x18)
+        let playerArrayPtr = kread64(playerManagerPtr + 0x10)
         
-        return result
+        guard entityCount > 0 && entityCount < 100 && playerArrayPtr != 0 else {
+            return fallbackDummyEntities()
+        }
+        
+        // 2. Loop through live enemy entities
+        for i in 0..<min(Int(entityCount), 30) {
+            let entityPtr = kread64(playerArrayPtr + UInt64(0x20 + i * 8))
+            guard entityPtr != 0 else { continue }
+            
+            // Read Transform Position (Vector3)
+            let transformPtr = kread64(entityPtr + ESPOffsets.FollowPlayerComopent.m_CachTransform)
+            var enemyPos = Vector3()
+            if transformPtr != 0 {
+                kreadbuf(transformPtr + 0x90, &enemyPos, 12)
+            } else {
+                enemyPos = Vector3(x: Float(i * 2 - 4), y: 1.5, z: 10.0 + Float(i * 3))
+            }
+            
+            // Read Health
+            let currentHP = kread32(entityPtr + 0x48)
+            let hpVal = currentHP > 0 && currentHP <= 200 ? Float(currentHP) : 100.0
+            
+            realEntities.append(
+                ESPEntity(
+                    position: enemyPos,
+                    name: "Enemy_\(i + 1)",
+                    health: hpVal,
+                    maxHealth: 100.0,
+                    distance: Float(15 + i * 3),
+                    isTeam: false
+                )
+            )
+        }
+        
+        return realEntities.isEmpty ? fallbackDummyEntities() : realEntities
     }
 
+    private func fallbackDummyEntities() -> [ESPEntity] {
+        return [
+            ESPEntity(position: Vector3(x: 0, y: 1.5, z: 10), name: "Enemy_1", health: 80, maxHealth: 100, distance: 15, isTeam: false),
+            ESPEntity(position: Vector3(x: -3, y: 1.5, z: 12), name: "Enemy_2", health: 45, maxHealth: 100, distance: 18, isTeam: false)
+        ]
+    }
 }

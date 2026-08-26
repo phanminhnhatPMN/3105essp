@@ -70,39 +70,47 @@ public class ESPManager: ObservableObject {
     private func readEntitiesFromRAM() -> [ESPEntity] {
         var realEntities: [ESPEntity] = []
         
-        guard libil2cppBase != 0 || gameProc != 0 else {
+        // Safety guard: only proceed if kernel R/W and libil2cpp base are valid
+        guard libil2cppBase != 0 && is_kaddr_valid(libil2cppBase) else {
             return fallbackDummyEntities()
         }
         
-        // 1. Read Live Player Array & Entity Count
-        let playerManagerPtr = kread64(libil2cppBase + ESPOffsets.AllPlayerSpawnPointManager.pointList)
-        guard playerManagerPtr != 0 else {
+        // 1. Read Live Player Array & Entity Count with safety validation
+        let targetOffset = libil2cppBase + ESPOffsets.AllPlayerSpawnPointManager.pointList
+        guard is_kaddr_valid(targetOffset) else { return fallbackDummyEntities() }
+        
+        let playerManagerPtr = kread64(targetOffset)
+        guard playerManagerPtr != 0 && is_kaddr_valid(playerManagerPtr) else {
             return fallbackDummyEntities()
         }
         
         let entityCount = kread32(playerManagerPtr + 0x18)
         let playerArrayPtr = kread64(playerManagerPtr + 0x10)
         
-        guard entityCount > 0 && entityCount < 100 && playerArrayPtr != 0 else {
+        guard entityCount > 0 && entityCount < 100 && playerArrayPtr != 0 && is_kaddr_valid(playerArrayPtr) else {
             return fallbackDummyEntities()
         }
         
-        // 2. Loop through live enemy entities
+        // 2. Loop through live enemy entities safely
         for i in 0..<min(Int(entityCount), 30) {
-            let entityPtr = kread64(playerArrayPtr + UInt64(0x20 + i * 8))
-            guard entityPtr != 0 else { continue }
+            let entityOffset = playerArrayPtr + UInt64(0x20 + i * 8)
+            guard is_kaddr_valid(entityOffset) else { continue }
+            
+            let entityPtr = kread64(entityOffset)
+            guard entityPtr != 0 && is_kaddr_valid(entityPtr) else { continue }
             
             // Read Transform Position (Vector3)
             let transformPtr = kread64(entityPtr + ESPOffsets.FollowPlayerComopent.m_CachTransform)
             var enemyPos = Vector3()
-            if transformPtr != 0 {
+            if transformPtr != 0 && is_kaddr_valid(transformPtr + 0x90) {
                 kreadbuf(transformPtr + 0x90, &enemyPos, 12)
             } else {
                 enemyPos = Vector3(x: Float(i * 2 - 4), y: 1.5, z: 10.0 + Float(i * 3))
             }
             
-            // Read Health
-            let currentHP = kread32(entityPtr + 0x48)
+            // Read Health safely
+            let hpOffset = entityPtr + 0x48
+            let currentHP = is_kaddr_valid(hpOffset) ? kread32(hpOffset) : 100
             let hpVal = currentHP > 0 && currentHP <= 200 ? Float(currentHP) : 100.0
             
             realEntities.append(
@@ -119,6 +127,7 @@ public class ESPManager: ObservableObject {
         
         return realEntities.isEmpty ? fallbackDummyEntities() : realEntities
     }
+
 
     private func fallbackDummyEntities() -> [ESPEntity] {
         return [
